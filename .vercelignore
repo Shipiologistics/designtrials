@@ -1,0 +1,9 @@
+.DS_Store
+.next
+.vinext
+.vite
+.wrangler
+dist
+node_modules
+coverage
+usefullassets 

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Camera, ScanSearch, ShieldCheck } from "lucide-react";
-import { useState } from "react";
+import { useState, type CSSProperties } from "react";
 
 const stages = ["Month 0", "Month 3", "Month 6", "Month 12"];
 
@@ -43,7 +43,7 @@ export function ProgressSimulation({ image, subject }: { image: string; subject:
             width={source.width}
             height={source.height}
             sizes="(max-width: 760px) 90vw, 480px"
-            style={{ transform: `translateX(-${stage * 25}%)` }}
+            style={{ "--simulation-stage": stage } as CSSProperties}
           />
           <div className="simulation-badge"><span>Illustrative stage 0{stage + 1}</span><strong>{stages[stage]}</strong></div>
         </div>
@@ -51,12 +51,21 @@ export function ProgressSimulation({ image, subject }: { image: string; subject:
         <div className="simulation-copy">
           <p className="kicker">Standardized progress review</p>
           <h3>{copy[0]}</h3>
-          <p>{copy[1]}</p>
-          <div className="comparison-rules">
+          <p className="simulation-desktop-guidance">{copy[1]}</p>
+          <div className="comparison-rules simulation-desktop-guidance">
             <span><Camera size={17} /> Same light</span>
             <span><ScanSearch size={17} /> Same angle</span>
             <span><ShieldCheck size={17} /> Honest context</span>
           </div>
+          <details className="simulation-mobile-guidance">
+            <summary>Photo review guidance</summary>
+            <p>{copy[1]}</p>
+            <div className="comparison-rules">
+              <span><Camera size={17} /> Same light</span>
+              <span><ScanSearch size={17} /> Same angle</span>
+              <span><ShieldCheck size={17} /> Honest context</span>
+            </div>
+          </details>
         </div>
       </div>
 

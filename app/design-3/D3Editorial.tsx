@@ -22,7 +22,7 @@ export function D3Hero({ eyebrow, title, copy, image, alt, note, cta = "Take the
     <section className="d3-hero d3-has-curve">
       <Image src={image} alt={alt} fill priority sizes="100vw" />
       <div className="d3-hero-veil" />
-      <span className="d3-hero-edition">INRUUTS / FIELD NOTE 03</span>
+      <span className="d3-hero-edition">INRUUT / FIELD NOTE 03</span>
       <div className="d3-hero-copy"><p>{eyebrow}</p><h1>{title}</h1><div><span>{copy}</span><Link href="/quiz">{cta} <ArrowUpRight size={17} /></Link></div></div>
       <aside>{note}</aside>
       <D3Curve tone="white" variant="wave" />
@@ -89,7 +89,7 @@ export function D3DoubleFeature({ items }: { items: [RailItem,RailItem] }) {
 }
 
 export function D3Quote({ quote, detail, nextTone = "signal" }: { quote: string; detail: string; nextTone?: CurveTone }) {
-  return <section className="d3-quote d3-has-curve"><span>Inruuts principle / 04</span><blockquote>“{quote}”</blockquote><p>{detail}</p><D3Curve tone={nextTone} variant="wave" /></section>;
+  return <section className="d3-quote d3-has-curve"><span>Inruut principle / 04</span><blockquote>“{quote}”</blockquote><p>{detail}</p><D3Curve tone={nextTone} variant="wave" /></section>;
 }
 
 export function D3CareBoundary({ image, alt, eyebrow, title, copy, alert = false }: { image: string; alt: string; eyebrow: string; title: string; copy: string; alert?: boolean }) {

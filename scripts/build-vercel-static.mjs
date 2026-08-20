@@ -31,7 +31,7 @@ process.env.NEXT_PUBLIC_SITE_URL ??=
     ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
     : process.env.VERCEL_URL
       ? `https://${process.env.VERCEL_URL}`
-      : "https://inruuts.com";
+      : "https://inruut.com";
 
 const contentTypes = new Map([
   [".css", "text/css; charset=utf-8"],

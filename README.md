@@ -1,4 +1,4 @@
-# Inruuts U.S. Shopify Store
+# Inruut U.S. Shopify Store
 
 ## U.S. Market Strategy, UX and Content Specification
 
@@ -16,7 +16,7 @@
 
 ## 1. Project Summary
 
-Inruuts is a personalized Hair Root Wellness brand for men and women. It does not sell the same off-the-shelf bundle to every customer. Visitors first learn about their type of hair concern, take a guided quiz, receive one tailored Hair Root Wellness Box recommendation, and then review the complete system before purchase.
+Inruut is a personalized Hair Root Wellness brand for men and women. It does not sell the same off-the-shelf bundle to every customer. Visitors first learn about their type of hair concern, take a guided quiz, receive one tailored Hair Root Wellness Box recommendation, and then review the complete system before purchase.
 
 The storefront should therefore behave more like a trusted assessment and recommendation experience than a normal product catalog.
 
@@ -38,7 +38,7 @@ Move qualified visitors through this journey:
 
 ### Primary conversion
 
-Completed purchase of a personalized Inruuts Hair Root Wellness Box.
+Completed purchase of a personalized Inruut Hair Root Wellness Box.
 
 ### Supporting conversions
 
@@ -55,7 +55,7 @@ Completed purchase of a personalized Inruuts Hair Root Wellness Box.
 
 **Personalized hair care based on your pattern, scalp, routine and goals.**
 
-Inruuts should not lead with a list of products. It should lead with the idea that hair concerns can look similar while having different contributing factors, so a useful routine should begin with understanding the individual.
+Inruut should not lead with a list of products. It should lead with the idea that hair concerns can look similar while having different contributing factors, so a useful routine should begin with understanding the individual.
 
 ### The promise the website must communicate
 
@@ -64,24 +64,24 @@ Inruuts should not lead with a list of products. It should lead with the idea th
 3. Every item in your bundle has a clear role.
 4. The science is explained in plain language.
 5. Expectations are realistic and progress takes consistency.
-6. Inruuts will tell you when an online product recommendation is not the right next step.
+6. Inruut will tell you when an online product recommendation is not the right next step.
 
 ### Language guardrail
 
-Until Inruuts has the required clinical process and evidence, the quiz should be described as a **hair assessment**, **hair profile**, or **recommendation quiz**, not a medical diagnosis. Claims such as “find your root cause,” “clinically proven,” “regrows hair,” exact result percentages, or guaranteed timelines must only appear when supported by competent and reliable scientific evidence and approved for use in the United States.
+Until Inruut has the required clinical process and evidence, the quiz should be described as a **hair assessment**, **hair profile**, or **recommendation quiz**, not a medical diagnosis. Claims such as “find your root cause,” “clinically proven,” “regrows hair,” exact result percentages, or guaranteed timelines must only appear when supported by competent and reliable scientific evidence and approved for use in the United States.
 
 ## 3. Research Conclusion
 
-There is no universal page structure that can be known in advance to be the “top-converting” design for Inruuts. Competitor patterns and ecommerce research give us a strong first hypothesis; Inruuts-specific conversion data and controlled tests must determine the winner.
+There is no universal page structure that can be known in advance to be the “top-converting” design for Inruut. Competitor patterns and ecommerce research give us a strong first hypothesis; Inruut-specific conversion data and controlled tests must determine the winner.
 
 ### Competitor lessons
 
-| Brand | What works | What Inruuts should avoid |
+| Brand | What works | What Inruut should avoid |
 | --- | --- | --- |
-| Hims | Clear concern-led entry, restrained design, visible treatment qualification and a focused path from education to consultation | Copying a U.S. telehealth model unless Inruuts provides the licensed clinical review, pharmacy and state-by-state operations that model requires |
-| Keeps | Direct hair-loss education, treatment comparison and an assessment-led purchase journey | Presenting prescription or OTC treatment language when the Inruuts catalog does not legally support it |
+| Hims | Clear concern-led entry, restrained design, visible treatment qualification and a focused path from education to consultation | Copying a U.S. telehealth model unless Inruut provides the licensed clinical review, pharmacy and state-by-state operations that model requires |
+| Keeps | Direct hair-loss education, treatment comparison and an assessment-led purchase journey | Presenting prescription or OTC treatment language when the Inruut catalog does not legally support it |
 | Hers | Approachable women-focused education and clear routing between concern types | Flattening the range of women's hair concerns into one generic hormonal or cosmetic story |
-| Nutrafol | Premium wellness presentation, ingredient education, professional credibility and strong subscription merchandising | Broad wellness or growth claims that are not supported for the finished Inruuts product |
+| Nutrafol | Premium wellness presentation, ingredient education, professional credibility and strong subscription merchandising | Broad wellness or growth claims that are not supported for the finished Inruut product |
 | Prose | Strong “made for you” positioning, structured consultation categories, made-to-order explanation and a personalized routine story | Promotions and email popups that interrupt the consultation |
 | Function of Beauty | States the quiz benefit before starting, uses strong product imagery and keeps customization language approachable | Letting normal catalog shopping distract from a high-intent quiz flow |
 | Traya | Compact charcoal navigation, a single rounded campaign hero, lime calls to action, proof and root-cause carousels, stage selectors, month-by-month timelines and dense explainer cards | Importing India-specific copy, currencies, testimonials, Ayurveda claims, result percentages, guarantees or clinical claims into the U.S. customer experience |
@@ -107,13 +107,13 @@ The six primary experiences are:
 3. **Women's Hair Loss** - concern-specific education, do/don't guidance and assessment entry
 4. **The Science** - hair biology, contributing factors, ingredients, method and evidence
 5. **Hair Quiz** - multi-step assessment
-6. **Your Inruuts Plan** - personalized results, bundle explanation and order path
+6. **Your Inruut Plan** - personalized results, bundle explanation and order path
 
 The sixth page is essential. Sending someone from a quiz directly to a generic product page would weaken the personalization promise.
 
 ### Utility pages not counted as landing pages
 
-- About Inruuts
+- About Inruut
 - FAQ
 - Contact or support
 - Shipping and returns
@@ -124,7 +124,7 @@ The sixth page is essential. Sending someone from a quiz directly to a generic p
 
 ### Main navigation
 
-- Inruuts logo
+- Inruut logo
 - Men
 - Women
 - The Science
@@ -149,7 +149,7 @@ Make visitors feel understood, explain why personalization matters, establish cr
    - Do not rotate several promotional messages.
 
 2. **Hero**
-   - Real Inruuts customer/model photography or video featuring healthy, believable people and visible hair detail.
+   - Real Inruut customer/model photography or video featuring healthy, believable people and visible hair detail.
    - Literal headline about personalized hair care, not a vague wellness slogan.
    - One-sentence explanation that each bundle is curated from the visitor's answers.
    - Primary CTA: `Take the hair quiz`.
@@ -168,9 +168,9 @@ Make visitors feel understood, explain why personalization matters, establish cr
    - Compare two hypothetical hair profiles with similar visible thinning but different patterns, scalp states, routines or goals.
    - End with the quiz CTA.
 
-6. **How Inruuts works**
+6. **How Inruut works**
    - Take the assessment.
-   - Receive your Inruuts hair profile.
+   - Receive your Inruut hair profile.
    - Review your curated bundle and routine.
    - Order and track progress.
 
@@ -187,7 +187,7 @@ Make visitors feel understood, explain why personalization matters, establish cr
    - Standardized before/after framing, dates, lighting disclosure and individual-results disclaimer.
    - Never imply every visitor will obtain the same result.
 
-10. **What may be inside a Inruuts bundle**
+10. **What may be inside a Inruut bundle**
     - Show possible categories, not a fixed universal kit.
     - Each item should be labeled “selected when appropriate.”
     - This is education, not a generic add-to-cart carousel.
@@ -200,14 +200,14 @@ Make visitors feel understood, explain why personalization matters, establish cr
     - Is every bundle different?
     - How is my bundle chosen?
     - How long does the quiz take?
-    - Can Inruuts diagnose a medical condition?
+    - Can Inruut diagnose a medical condition?
     - When should I speak with a dermatologist?
     - How soon can progress reasonably be assessed?
     - Can I change or reorder my bundle?
 
 13. **Final CTA band**
     - Restate the personal outcome, not a discount.
-    - CTA: `Build my Inruuts plan` or `Take the hair quiz`.
+    - CTA: `Build my Inruut plan` or `Take the hair quiz`.
 
 ## Page 2: Men's Hair Loss
 
@@ -225,7 +225,7 @@ Help a man recognize common patterns, replace panic with useful information, and
 6. What to do now
 7. What not to do: panic-buy, combine strong actives without guidance, rely on a single symptom, expect overnight change or ignore sudden/patchy loss
 8. Signs that should lead to professional medical assessment rather than a product recommendation
-9. What the Inruuts quiz considers
+9. What the Inruut quiz considers
 10. Personalized-plan example for an illustrative male profile
 11. Verified male result stories, if available
 12. FAQ
@@ -251,7 +251,7 @@ Address the broader and often more emotionally sensitive set of women’s hair c
 6. What to do now
 7. What not to do: hide symptoms from a clinician, start unsuitable products during pregnancy, over-supplement, use tight styles continuously or treat breakage as follicle loss
 8. Clear professional-care red flags
-9. What the Inruuts quiz considers
+9. What the Inruut quiz considers
 10. Personalized-plan example for an illustrative female profile
 11. Verified female result stories, if available
 12. FAQ
@@ -269,16 +269,16 @@ Turn “science-backed” from a marketing phrase into an understandable, audita
 
 ### Recommended section order
 
-1. **Science hero:** what Inruuts can assess and what it cannot diagnose
+1. **Science hero:** what Inruut can assess and what it cannot diagnose
 2. **How hair grows:** anagen, catagen and telogen cycle
 3. **How pattern hair loss develops:** genes, androgen sensitivity/DHT and follicle miniaturization
 4. **Why men and women often show different patterns**
 5. **Other contributors:** scalp health, stress, illness, nutrition, medication and hair practices
-6. **The Inruuts personalization model:** inputs -> profile -> bundle rules -> routine
+6. **The Inruut personalization model:** inputs -> profile -> bundle rules -> routine
 7. **Ingredient or product-category library:** role, evidence level, who it may suit, cautions and source links
 8. **Evidence standards:** clinical study, ingredient-level evidence, cosmetic test, customer survey and anecdote must be labeled differently
 9. **Realistic timelines:** what can be observed and when, with condition-appropriate caveats
-10. **When Inruuts is not enough:** sudden, painful, scarring or patchy loss and other red flags
+10. **When Inruut is not enough:** sudden, painful, scarring or patchy loss and other red flags
 11. **References and medical reviewer details**
 12. **Quiz CTA**
 
@@ -355,7 +355,7 @@ Each result should contain:
 - Primary concern and visible pattern selected by the user
 - Possible contributing factors, carefully worded
 - What the visitor can do now
-- Recommended Inruuts bundle
+- Recommended Inruut bundle
 - Why each item was included
 - What was deliberately not included and why, where useful
 - Daily/weekly routine
@@ -363,7 +363,7 @@ Each result should contain:
 - Safety notes and professional-care routing
 - Ability to edit relevant answers
 
-## Page 6: Your Inruuts Plan
+## Page 6: Your Inruut Plan
 
 ### Purpose
 
@@ -390,7 +390,7 @@ The cart should retain a readable summary of the recommendation and a private re
 ### Recommended starting architecture
 
 - Shopify Online Store 2.0 custom theme
-- Modular sections editable by the Inruuts team
+- Modular sections editable by the Inruut team
 - Shopify products and inventory remain the source of truth
 - Quiz built as a focused custom experience or carefully selected Shopify app
 - Structured educational content stored in Shopify metaobjects/metafields
@@ -409,7 +409,7 @@ Recommended operational model:
 5. Visible line-item information explains the customer’s bundle in plain language.
 6. Inventory is tracked at component level where required.
 
-Shopify supports customized bundles through bundle apps/Functions and supports line-item properties for attaching customization data. The final choice depends on the number of components, inventory rules, fulfillment workflow and whether Inruuts needs subscriptions.
+Shopify supports customized bundles through bundle apps/Functions and supports line-item properties for attaching customization data. The final choice depends on the number of components, inventory rules, fulfillment workflow and whether Inruut needs subscriptions.
 
 ### Decision required before development
 
@@ -427,11 +427,11 @@ Shopify bundle and subscription capabilities can change. If recurring delivery i
 
 ### Recommended design character
 
-**Clinical clarity with human warmth.** Inruuts should feel credible and modern without looking like a hospital, generic supplement store or generic supplement catalog. The prototype includes three complete visual directions that share the same U.S.-specific copy, generated assets, science explainers, quiz logic and safety boundaries.
+**Clinical clarity with human warmth.** Inruut should feel credible and modern without looking like a hospital, generic supplement store or generic supplement catalog. The prototype includes three complete visual directions that share the same U.S.-specific copy, generated assets, science explainers, quiz logic and safety boundaries.
 
 ### Design 1: guided clinical commerce
 
-The live Traya homepage is the primary structural design reference for Design 1: use its compact sticky navigation, rounded campaign hero, bright conversion controls, dense visual explainers, stage selectors, carousels and timeline rhythm as inspiration while keeping all Inruuts content original and U.S.-specific.
+The live Traya homepage is the primary structural design reference for Design 1: use its compact sticky navigation, rounded campaign hero, bright conversion controls, dense visual explainers, stage selectors, carousels and timeline rhythm as inspiration while keeping all Inruut content original and U.S.-specific.
 
 Local routes: `/`, `/men`, `/women`, `/science`, `/quiz`
 
@@ -439,7 +439,7 @@ Local routes: `/`, `/men`, `/women`, `/science`, `/quiz`
 
 The live Alitura homepage is the primary design-language reference for Design 2: use its full-bleed photographic campaigns, centered editorial wordmark, thin uppercase navigation, monochrome announcement bar, natural stone palette, generous white space, premium product-gallery rhythm and elegant comparison modules as inspiration. Do not copy Alitura product claims, customer numbers, proprietary copy, identity or imagery.
 
-Design 2 also includes generated men’s and women’s four-phase photo journals plus practitioner-led trust photography for standardized progress documentation, responsible referral guidance and quality preparation. Inruuts practitioners must not be visually presented as doctors. Every generated sequence must be identified as illustrative education rather than a real customer testimonial, product-performance claim or guaranteed result.
+Design 2 also includes generated men’s and women’s four-phase photo journals plus practitioner-led trust photography for standardized progress documentation, responsible referral guidance and quality preparation. Inruut practitioners must not be visually presented as doctors. Every generated sequence must be identified as illustrative education rather than a real customer testimonial, product-performance claim or guaranteed result.
 
 Local routes: `/design-2`, `/design-2/men`, `/design-2/women`, `/design-2/science`, `/design-2/quiz`, `/design-2/plan`
 
@@ -469,7 +469,7 @@ Final colors depend on the logo and packaging, but the interface should use a ba
 
 - Clear warm white for reading surfaces
 - Near-black ink for authority and accessibility
-- Deep mineral green for the Inruuts identity
+- Deep mineral green for the Inruut identity
 - Fresh lime for conversion controls, active states and short emphasis moments
 - Warm cream and muted olive for educational cards and timelines
 - Controlled rust or red only for warnings and professional-care routing
@@ -513,7 +513,7 @@ Recommended generated explainer set:
 5. Common female pattern progression
 6. Hair shedding versus breakage versus follicle loss
 7. Scalp barrier and buildup illustration
-8. “What the Inruuts assessment considers” systems illustration
+8. “What the Inruut assessment considers” systems illustration
 
 ### Art direction for explainers
 
@@ -532,7 +532,7 @@ The final copy should follow this hierarchy:
 
 1. **Outcome:** what the visitor gets
 2. **Reason:** why personalization matters
-3. **Method:** how Inruuts creates the recommendation
+3. **Method:** how Inruut creates the recommendation
 4. **Evidence:** what supports the statement
 5. **Expectation:** how long it may take and what varies
 6. **Action:** the next specific step
@@ -540,7 +540,7 @@ The final copy should follow this hierarchy:
 ### CTA language to test
 
 - Take the hair quiz
-- Build my Inruuts plan
+- Build my Inruut plan
 - Find my personalized bundle
 - Understand my hair pattern
 
@@ -548,7 +548,7 @@ Avoid vague labels such as `Learn more`, `Submit` or `Get started` when a more s
 
 ### Copy inputs needed from the client
 
-- Brand story and meaning of “Inruuts”
+- Brand story and meaning of “Inruut”
 - Confirmed U.S. launch coverage: contiguous 48 states, all 50 states, Washington, D.C. and/or U.S. territories
 - USD price positioning, free-shipping threshold, state sales-tax handling and U.S. delivery estimates
 - Exact customer segments and price positioning
@@ -617,12 +617,12 @@ Test one meaningful hypothesis at a time and keep a written decision log.
 - Do not state or imply “FDA approved” unless that exact finished product and use have the required FDA status.
 - Substantiate express and implied health-related claims before publication under FTC standards; the full page, imagery and testimonials contribute to the claim's overall impression.
 - Clearly distinguish customer surveys from clinical evidence.
-- Disclose when evidence supports an ingredient rather than the finished Inruuts bundle.
+- Disclose when evidence supports an ingredient rather than the finished Inruut bundle.
 - Testimonials and before/after media must be genuine, authorized and accompanied by clear disclosures of material connections and generally expected results where required.
 - Obtain explicit written permission for all customer media and document how it may be used.
 - Provide escalation guidance for sudden, painful, scarring or patchy hair loss and other relevant red flags.
 - Treat quiz answers and scalp photos as sensitive data even where the law does not formally classify every field that way.
-- Do not claim the quiz is “HIPAA compliant” unless Inruuts' role and full data flow have been reviewed and the claim is accurate.
+- Do not claim the quiz is “HIPAA compliant” unless Inruut' role and full data flow have been reviewed and the claim is accurate.
 - Publish a U.S.-focused privacy notice and deletion process; assess state privacy requirements based on launch footprint, data practices and business thresholds.
 - Separate order communication consent from promotional email and SMS consent. Use clear opt-in language and preserve consent records.
 - Show subscription price, frequency, renewal, cancellation method and trial terms clearly before purchase; do not use preselected subscription choices.
@@ -702,7 +702,7 @@ Each medical-style article needs an author/reviewer, review date, references and
 These decisions should be answered before design begins:
 
 1. Does the initial U.S. launch cover the contiguous 48 states only, all 50 states, Washington, D.C. and/or U.S. territories?
-2. Are Inruuts bundles cosmetic hair care, supplements, OTC drugs, prescription treatments, or a combination?
+2. Are Inruut bundles cosmetic hair care, supplements, OTC drugs, prescription treatments, or a combination?
 3. Who approves the recommendation rules and medical-style content for U.S. use?
 4. Is the bundle assembled from a fixed product catalog, custom-formulated, or both?
 5. How many valid bundle recipes are expected at launch?
@@ -758,21 +758,21 @@ The documents are useful direction, not automatic publication approval. Product,
 | `Shopify Product Page 1.docx` | Defines the product-page sequence: product title and hero, quick benefits, what is inside, who it is for, how it works, personalization, proof and final CTA. The intended product name is `Hair Root Wellness Box`, with `The art of root renewal` as a supporting line. | Add a real plan/product-detail experience to the current five-route prototype. The result must lead into this page with the recommended box, actual included components, routine, price, delivery and cautions. The draft social-proof quotes are placeholders and must not be published. |
 | `Shopify Product page 2.docx` | Frames the box as a complete five-part system: Internal Foundation Support, Scalp Environment Treatment, Growth Cycle Support, Root Restoration Element and Guided Ritual System. It proposes category values of `$40+`, `$35+`, `$30+`, `$25+` and `$20+`, totaling `$150+`. | Use the five-part framework as the principal merchandising explainer. Do not display the proposed component values or `$150+` total until the business can prove normal standalone value and the comparison is not misleading. |
 | `What’s inside_.docx` | Supplies the strongest design brief: a centered five-block system, thin gold icons, serif titles, sans-serif descriptions, black or cream backgrounds, generous spacing, equal block sizing, subtle hover/tap feedback and a total-value anchor. It argues for revealing the framework while withholding exact products. | Build this as a premium Design 2 section, using the five categories and black/gold language. Keep the visual hierarchy, but reject the instruction to hide ingredients or products until after delivery: customers must be able to review actual contents, amounts, cautions and purchase terms before checkout. |
-| `Screenshot 2026-03-23 at 10.59.07 PM.png` | Shows a low-distraction quiz introduction built around a personalized recommendation promise, a named-expert/founder endorsement, one strong CTA, warm neutral color and generous whitespace. | Adapt the focused entry pattern to Inruuts. Use a real founder or qualified expert only after identity, credentials, photography and permission are supplied; do not reuse the names, drawings or copy shown in the reference. |
+| `Screenshot 2026-03-23 at 10.59.07 PM.png` | Shows a low-distraction quiz introduction built around a personalized recommendation promise, a named-expert/founder endorsement, one strong CTA, warm neutral color and generous whitespace. | Adapt the focused entry pattern to Inruut. Use a real founder or qualified expert only after identity, credentials, photography and permission are supplied; do not reuse the names, drawings or copy shown in the reference. |
 | `Screenshot 2026-03-23 at 11.00.40 PM.png` | Shows email capture immediately before recommendations, a discount incentive, a clear submit action and a visible option to receive results without submitting an email. | If lead capture is introduced, place it near the result and keep a clear `View my results without email` route. Promotional consent must be separate from result delivery. The `15% off` offer is not approved until pricing and promotion terms are confirmed. |
 
 ### Revised product and positioning brief
 
 The supplied material narrows the concept from a broad personalized hair-care bundle to a more distinctive offer:
 
-**Inruuts is a personalized Hair Root Wellness Box: a coordinated system intended to support the internal foundation, scalp environment, hair-growth cycle, root-focused routine and day-to-day consistency.**
+**Inruut is a personalized Hair Root Wellness Box: a coordinated system intended to support the internal foundation, scalp environment, hair-growth cycle, root-focused routine and day-to-day consistency.**
 
 The strongest usable message is `A system, not just products.` The term `system` should become more prominent across Design 2, while `root` should remain the recurring organizing idea. The website still must explain each recommendation rather than using mystery as the luxury signal.
 
 Naming must be normalized before implementation:
 
-- The public brand is `Inruuts`, not `Inruut` and not `Ruuts`.
-- Use `Inruuts Hair Root Wellness Box` as the working master product name.
+- The public brand is `Inruut`, not `Ruuts` or any pluralized variant.
+- Use `Inruut Hair Root Wellness Box` as the working master product name.
 - Treat `The art of root renewal` as optional campaign copy, not a substantiated outcome claim.
 - The four proposed result names are working names until their recipes and eligibility rules are approved.
 

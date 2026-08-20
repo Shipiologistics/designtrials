@@ -6,7 +6,7 @@ export function SiteFooter() {
     <footer className="footer">
       <div className="footer-top">
         <div>
-          <Link className="wordmark wordmark-light" href="/">INRUUTS<span>.</span></Link>
+          <Link className="wordmark wordmark-light" href="/">INRUUT<span>.</span></Link>
           <p>Personalized cosmetic hair care built for U.S. routines.</p>
         </div>
         <div className="footer-nav">
@@ -15,8 +15,8 @@ export function SiteFooter() {
         <Link className="footer-cta" href="/quiz">Build my plan <ArrowUpRight size={18} /></Link>
       </div>
       <div className="footer-bottom">
-        <p>Educational prototype only. Inruuts does not diagnose, treat, cure, or prevent disease. Product formulas, claims, pricing, and clinical pathways require U.S. regulatory and professional review before launch.</p>
-        <span>© 2026 Inruuts</span>
+        <p>Educational prototype only. Inruut does not diagnose, treat, cure, or prevent disease. Product formulas, claims, pricing, and clinical pathways require U.S. regulatory and professional review before launch.</p>
+        <span>© 2026 Inruut</span>
       </div>
     </footer>
   );

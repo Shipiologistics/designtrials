@@ -12,7 +12,7 @@ export function SiteHeader() {
     <>
       <div className="utility"><span>Your hair profile, care plan, and routine in one place.</span><Link href="/quiz">Start free profile</Link></div>
       <header className="header">
-        <Link className="wordmark" href="/" aria-label="Inruuts home">INRUUTS<span>.</span></Link>
+        <Link className="wordmark" href="/" aria-label="Inruut home">INRUUT<span>.</span></Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
           {links.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
         </nav>

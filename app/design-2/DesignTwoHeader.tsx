@@ -18,8 +18,8 @@ export function DesignTwoHeader() {
           <Link href="/design-2/men">Men</Link>
           <Link href="/design-2/women">Women</Link>
         </nav>
-        <Link className="d2-wordmark" href="/design-2" aria-label="Inruuts Design 2 home">
-          <span>Inruuts</span><small>Hair Root Wellness</small>
+        <Link className="d2-wordmark" href="/design-2" aria-label="Inruut Design 2 home">
+          <span>Inruut</span><small>Hair Root Wellness</small>
         </Link>
         <nav className="d2-nav d2-nav-right" aria-label="Design 2 secondary navigation">
           <Link href="/design-2/science">The science</Link>

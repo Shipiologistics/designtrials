@@ -4,7 +4,7 @@ import { ProgressSimulation } from "../../components/ProgressSimulation";
 import { D2PhotoJournal } from "../D2ReviewSections";
 import { D2ConcernRail, D2Definition, D2EditorialSplit, D2FinalCampaign, D2Hero, D2Manifesto, D2MethodStrip, D2ProblemSplit, D2ProductRail, D2PromoPair, D2ResultsGallery, D2RootSystem, D2Statement } from "../D2Wireframe";
 
-export const metadata: Metadata = { title: "Men's Hair Loss Guide | Inruuts Design 2", description: "Understand common male hair-loss patterns, DHT, realistic Hair Root Wellness routes and responsible referral boundaries." };
+export const metadata: Metadata = { title: "Men's Hair Loss Guide | Inruut Design 2", description: "Understand common male hair-loss patterns, DHT, realistic Hair Root Wellness routes and responsible referral boundaries." };
 
 const patterns = [
   { label: "Temples", title: "A hairline that slowly moves back", copy: "Male pattern hair loss often begins with recession at the temples. A gradual, symmetric change differs from a sudden patch or inflamed edge.", image: "/assets/men-temples.jpg", alt: "Mild symmetric temple recession" },
@@ -43,10 +43,10 @@ export default function DesignTwoMen() {
     <D2PhotoJournal subject="men" />
     <D2PromoPair items={[
       { label: "What may help", title: "Match the tool to the cause", image: "/assets/follicle-miniaturized.jpg", alt: "Miniaturized hair follicle", copy: "Cosmetic support, OTC medication, prescription care and nutrition have different roles, evidence and suitability requirements." },
-      { label: "Example personalized routine", title: "Gradual crown thinning + an oily scalp", image: "/assets/bundle-men.jpg", alt: "Illustrative men's Inruuts routine", copy: "A cleanser matched to oil and wash frequency, a direct scalp step and conditioning kept on the lengths." },
+      { label: "Example personalized routine", title: "Gradual crown thinning + an oily scalp", image: "/assets/bundle-men.jpg", alt: "Illustrative men's Inruut routine", copy: "A cleanser matched to oil and wash frequency, a direct scalp step and conditioning kept on the lengths." },
     ]} />
     <D2Statement quote="Match the tool to the cause." detail="Gentle care can support the scalp and reduce breakage. It does not change genetics, and supplements are not automatically useful." />
-    <D2EditorialSplit image="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner discussing a routine with a client" eyebrow="When a practitioner pauses the box" title="Sudden patches, pain, inflammation, scarring or heavy scaling." copy="These changes sit outside an Inruuts wellness profile. The responsible route is an outside licensed medical assessment before adding products or tools." alert />
+    <D2EditorialSplit image="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner discussing a routine with a client" eyebrow="When a practitioner pauses the box" title="Sudden patches, pain, inflammation, scarring or heavy scaling." copy="These changes sit outside an Inruut wellness profile. The responsible route is an outside licensed medical assessment before adding products or tools." alert />
     <D2FinalCampaign image="/assets/routine-application.jpg" alt="Direct scalp application" eyebrow="Private · Practical · Explained" title="Build a profile around what you are actually seeing." copy="Seven questions organize pattern, timing, scalp, routine and goal without pretending to diagnose." />
   </main>;
 }

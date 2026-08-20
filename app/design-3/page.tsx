@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { D3CareBoundary, D3Catalogue, D3Definition, D3DoubleFeature, D3Explainer, D3FeatureGrid, D3Final, D3Hero, D3IndexStrip, D3Principles, D3Quote, D3TopicRail } from "./D3Editorial";
 
-export const metadata: Metadata = { title: "Inruuts Design 3 | Personalized Hair Care", description: "A clean editorial personalized hair-care experience for the U.S. market." };
+export const metadata: Metadata = { title: "Inruut Design 3 | Personalized Hair Care", description: "A clean editorial personalized hair-care experience for the U.S. market." };
 
 const products = [
   { label: "Cleanse", title: "Scalp Balance Cleanser", image: "/assets/product-cleanser.jpg", alt: "Scalp Balance Cleanser", copy: "Oil, buildup and wash frequency shape the cleanser format.", meta: "Selected when appropriate" },
@@ -20,10 +20,10 @@ const concerns = [
 
 export default function DesignThreeHome() {
   return <main className="d3-page">
-    <D3Hero eyebrow="Science-led personalized hair care" title="Know what is behind your hair change." copy="Inruuts looks at pattern, timing, scalp, life stage and routine before building a plan, because thinning, shedding and breakage are not the same problem." image="/assets/home-hero.jpg" alt="A diverse group of adults representing different hair textures" note="Education first / No instant-regrowth promises" />
+    <D3Hero eyebrow="Science-led personalized hair care" title="Know what is behind your hair change." copy="Inruut looks at pattern, timing, scalp, life stage and routine before building a plan, because thinning, shedding and breakage are not the same problem." image="/assets/home-hero.jpg" alt="A diverse group of adults representing different hair textures" note="Education first / No instant-regrowth promises" />
     <D3IndexStrip />
     <D3Definition line="Personalized hair care built around pattern, scalp, routine and goal." />
-    <D3Principles eyebrow="The Inruuts difference" title="Immaculate reasoning. Explainable recommendations." copy="Good personalization begins by admitting what the quiz cannot know, then making every recommendation and limitation visible." items={[
+    <D3Principles eyebrow="The Inruut difference" title="Immaculate reasoning. Explainable recommendations." copy="Good personalization begins by admitting what the quiz cannot know, then making every recommendation and limitation visible." items={[
       { title: "Pattern before product", copy: "Where the change appears helps determine the next useful question." },
       { title: "Timing changes the route", copy: "Gradual, sudden and delayed changes should not receive one answer." },
       { title: "The whole routine matters", copy: "Scalp, fiber, habits and time available shape the plan." },
@@ -46,11 +46,11 @@ export default function DesignThreeHome() {
     ]} />
     <D3DoubleFeature items={[
       { label: "What we are made of", title: "Evidence before claims", image: "/assets/lab-ingredients.jpg", alt: "Cosmetic formulation laboratory", copy: "Ingredient evidence is useful context, but it does not automatically prove a finished formula performs the same way." },
-      { label: "Whole-routine approach", title: "More than one bottle", image: "/assets/personalized-box.jpg", alt: "Open personalized Inruuts kit", copy: "Product selection, usage instructions and routine cadence change with the profile instead of sending everyone the same set." },
+      { label: "Whole-routine approach", title: "More than one bottle", image: "/assets/personalized-box.jpg", alt: "Open personalized Inruut kit", copy: "Product selection, usage instructions and routine cadence change with the profile instead of sending everyone the same set." },
     ]} />
     <D3Quote quote="Good personalization begins by admitting what the quiz cannot know." detail="Pattern, speed and symptoms can guide the next question. They cannot replace a scalp examination, medical history or laboratory testing when those are needed." />
     <D3CareBoundary image="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner reviewing a routine journal with a client" eyebrow="When the profile should pause" title="A responsible practitioner knows the boundary." copy="Sudden shedding, round patches, pain, inflammation, scaling, scarring or eyebrow loss should be referred for outside licensed medical assessment." alert />
     <D3IndexStrip items={["Understand", "Assess", "Explain", "Build", "Review"]} />
-    <D3Final image="/assets/bundle-men.jpg" alt="Inruuts personalized hair-care routine" eyebrow="Your plan, explained" title="See what fits. See what does not. Know why." copy="The profile is free, takes about three minutes and does not ask for contact details." />
+    <D3Final image="/assets/bundle-men.jpg" alt="Inruut personalized hair-care routine" eyebrow="Your plan, explained" title="See what fits. See what does not. Know why." copy="The profile is free, takes about three minutes and does not ask for contact details." />
   </main>;
 }

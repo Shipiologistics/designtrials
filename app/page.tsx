@@ -6,7 +6,7 @@ import { JourneyTimeline, ProfileStageExplorer, RootCauseExplorer } from "./comp
 import { PageHero } from "./components/PageHero";
 import { ThemeLink as Link } from "./components/ThemeLink";
 
-export const metadata: Metadata = { title: "Inruuts | Personalized Hair Care", description: "Understand your hair pattern and build a transparent U.S. hair-care plan." };
+export const metadata: Metadata = { title: "Inruut | Personalized Hair Care", description: "Understand your hair pattern and build a transparent U.S. hair-care plan." };
 
 const products = [
   ["Cleanse", "Scalp Balance Cleanser", "/assets/product-cleanser.jpg", "Oil, buildup and wash frequency shape the cleanser format."],
@@ -20,7 +20,7 @@ const products = [
 export default function Home() {
   return (
     <main className="home-page">
-      <PageHero eyebrow="Science-led personalized hair care" title="Know what is behind your hair change." copy="Inruuts looks at pattern, timing, scalp, life stage and routine before building a plan, because thinning, shedding and breakage are not the same problem." image="/assets/home-hero.jpg" alt="A diverse group of adults representing different hair textures" note="Education first · No instant-regrowth promises" stats={[["7", "Guided questions"], ["5", "Profile inputs"], ["0", "Email gates"]]} />
+      <PageHero eyebrow="Science-led personalized hair care" title="Know what is behind your hair change." copy="Inruut looks at pattern, timing, scalp, life stage and routine before building a plan, because thinning, shedding and breakage are not the same problem." image="/assets/home-hero.jpg" alt="A diverse group of adults representing different hair textures" note="Education first · No instant-regrowth promises" stats={[["7", "Guided questions"], ["5", "Profile inputs"], ["0", "Email gates"]]} />
 
       <section className="reference-section story-section">
         <div className="reference-heading"><div><p className="kicker">Pattern library</p><h2>Three concerns that should not get the same answer</h2></div><Link href="/quiz">Find my route <ArrowRight size={17} /></Link></div>
@@ -45,7 +45,7 @@ export default function Home() {
       <section className="reference-section care-model-section">
         <div className="reference-heading"><div><p className="kicker">Whole-routine approach</p><h2>Hair care requires more than one bottle</h2></div></div>
         <div className="care-model-grid">
-          <article><div><span>01</span><h3>Personalized products</h3><p>Cosmetic categories matched to scalp, fiber and routine needs.</p></div><Image src="/assets/personalized-box.jpg" alt="Open Inruuts personalized hair-care kit" fill sizes="(max-width: 760px) 100vw, 31vw" /></article>
+          <article><div><span>01</span><h3>Personalized products</h3><p>Cosmetic categories matched to scalp, fiber and routine needs.</p></div><Image src="/assets/personalized-box.jpg" alt="Open Inruut personalized hair-care kit" fill sizes="(max-width: 760px) 100vw, 31vw" /></article>
           <article><div><span>02</span><h3>Nutrition context</h3><p>Food first, testing when relevant, and no automatic supplement stack.</p></div><Image src="/assets/nutrition-hair.jpg" alt="Protein-rich foods, greens, beans and berries" fill sizes="(max-width: 760px) 100vw, 31vw" /></article>
           <article><div><span>03</span><h3>Practitioner boundary</h3><p>Warning signs pause the product route and point to outside licensed care.</p></div><Image src="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner reviewing a routine journal with a client" fill sizes="(max-width: 760px) 100vw, 31vw" /></article>
         </div>
@@ -81,7 +81,7 @@ export default function Home() {
 
       <section className="plan-cta">
         <div><p className="kicker">Your plan, explained</p><h2>See what fits. See what does not. Know why.</h2><p>The profile is free, takes about three minutes and does not ask for contact details.</p><Link className="primary-button" href="/quiz">Take the hair quiz <ArrowRight size={18} /></Link></div>
-        <div className="plan-cta-image"><Image src="/assets/bundle-men.jpg" alt="Inruuts personalized hair-care routine" fill sizes="(max-width: 760px) 100vw, 50vw" /></div>
+        <div className="plan-cta-image"><Image src="/assets/bundle-men.jpg" alt="Inruut personalized hair-care routine" fill sizes="(max-width: 760px) 100vw, 50vw" /></div>
       </section>
 
       <section className="reference-section faq-section">

@@ -3,7 +3,7 @@ import { PatternExplorer } from "../../components/PatternExplorer";
 import { ProgressSimulation } from "../../components/ProgressSimulation";
 import { D3CareBoundary, D3Catalogue, D3Definition, D3DoubleFeature, D3Explainer, D3FeatureGrid, D3Final, D3Hero, D3IndexStrip, D3Principles, D3Quote, D3TopicRail } from "../D3Editorial";
 
-export const metadata: Metadata = { title: "Women's Hair Loss Guide | Inruuts Design 3", description: "Understand widening parts, shedding, breakage, life-stage factors and realistic hair-care routes." };
+export const metadata: Metadata = { title: "Women's Hair Loss Guide | Inruut Design 3", description: "Understand widening parts, shedding, breakage, life-stage factors and realistic hair-care routes." };
 
 const patterns = [
   { label: "Widening part", title: "Density changing through the center", copy: "Female pattern hair loss often appears as gradual thinning over the top and a widening part while the frontal hairline may remain relatively preserved.", image: "/assets/women-part.jpg", alt: "Widening center part with visible scalp" },
@@ -40,10 +40,10 @@ export default function DesignThreeWomen() {
     <D3FeatureGrid eyebrow="Illustrative journey" title="A widening part changes gradually, and response is individual." copy="The slider shows a modest generated simulation, not a real customer and not a promise of regrowth."><ProgressSimulation image="/assets/case-women-simulation.jpg" subject="women" /></D3FeatureGrid>
     <D3DoubleFeature items={[
       { label: "Postpartum profile", title: "Look backward for the trigger", image: "/assets/postpartum-profile.jpg", alt: "Mother examining shed hair", copy: "Birth, illness, surgery, major stress and weight change can shift the cycle months before shedding becomes noticeable." },
-      { label: "Example personalized routine", title: "Breakage + a dry scalp", image: "/assets/bundle-women.jpg", alt: "Illustrative women's Inruuts routine", copy: "Gentle cleansing, conditioner and a weekly mask can support slip and reduce snapping; a scalp step belongs only when it fits." },
+      { label: "Example personalized routine", title: "Breakage + a dry scalp", image: "/assets/bundle-women.jpg", alt: "Illustrative women's Inruut routine", copy: "Gentle cleansing, conditioner and a weekly mask can support slip and reduce snapping; a scalp step belongs only when it fits." },
     ]} />
     <D3Quote quote="Hair needs nutrients. That does not mean everyone needs a supplement." detail="Visible loss does not prove a deficiency. Testing and treatment belong with a clinician when history and symptoms suggest them." />
-    <D3CareBoundary image="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner reviewing a client's routine journal" eyebrow="When a practitioner pauses the route" title="Sudden patches, pain, burning, scaling, scarring or eyebrow loss." copy="Do not cover these signs with a generic growth bundle. They should be assessed by an appropriate licensed medical professional outside Inruuts." alert />
+    <D3CareBoundary image="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner reviewing a client's routine journal" eyebrow="When a practitioner pauses the route" title="Sudden patches, pain, burning, scaling, scarring or eyebrow loss." copy="Do not cover these signs with a generic growth bundle. They should be assessed by an appropriate licensed medical professional outside Inruut." alert />
     <D3Final image="/assets/bundle-women.jpg" alt="Personalized women's hair-care routine" eyebrow="Specific / Respectful / Explained" title="Build a routine around your actual pattern and day." copy="The profile organizes concern, timing, scalp, routine and goal before showing an illustrative route." />
   </main>;
 }

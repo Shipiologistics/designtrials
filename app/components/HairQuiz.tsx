@@ -27,7 +27,7 @@ const questions: Question[] = [
   { key: "timeline", stage: "Timeline", title: "How long has this been noticeable?", helper: "Hair-cycle changes are measured in months, while sudden changes can need a different next step.", options: ["Recently started", "3-6 months", "More than a year", "Ongoing for years", "Not sure"] },
   { key: "stress", stage: "Life rhythm", title: "How would you describe your recent stress?", helper: "Stress is one piece of context, not a diagnosis or a promise that one supplement will fix the concern.", options: ["High or overwhelming", "Moderate", "Low", "Prefer not to answer"] },
   { key: "preference", stage: "Your preference", title: "What kind of routine feels most natural to you?", helper: "The final system still shows why every selected element belongs.", options: ["Natural or botanical", "Internal nourishment", "Topical scalp care", "A guided ritual", "Open to all appropriate options"] },
-  { key: "safety", stage: "Safety check", title: "Are any of these warning signs present?", helper: "This final check helps an Inruuts practitioner know when to pause a box recommendation.", options: ["No warning signs", "Sudden distinct patches", "Pain, burning or inflammation", "Heavy scaling or possible scarring", "Eyebrow or eyelash loss", "Prefer not to answer"] },
+  { key: "safety", stage: "Safety check", title: "Are any of these warning signs present?", helper: "This final check helps an Inruut practitioner know when to pause a box recommendation.", options: ["No warning signs", "Sudden distinct patches", "Pain, burning or inflammation", "Heavy scaling or possible scarring", "Eyebrow or eyelash loss", "Prefer not to answer"] },
 ];
 
 const boxes = {
@@ -107,7 +107,7 @@ export function HairQuiz() {
       <div className="quiz-welcome">
         <div className="quiz-welcome-image"><Image src="/assets/quiz-hero.jpg" alt="Diverse adults with a range of hair textures" fill priority sizes="(max-width: 800px) 100vw, 48vw" /></div>
         <div className="quiz-welcome-copy">
-          <p className="kicker">The Inruuts Hair Root Wellness profile</p>
+          <p className="kicker">The Inruut Hair Root Wellness profile</p>
           <h1>Seven useful questions. One box you can understand.</h1>
           <p>Tell us what you notice, when it began, the context around it and what kind of ritual fits. We&apos;ll show one working box recommendation or pause the route when outside medical care belongs first.</p>
           <div className="quiz-promises"><span><Clock3 size={18} /> About 3 minutes</span><span><ShieldCheck size={18} /> No diagnosis</span><span><Check size={18} /> Results without email</span></div>
@@ -124,7 +124,7 @@ export function HairQuiz() {
         <div>
           <p className="kicker">The responsible next step</p><ShieldAlert size={34} />
           <h1>Pause the box and arrange an outside medical assessment.</h1>
-          <p>Your answers include a sudden, patchy, painful, inflamed, heavily scaling or possibly scarring change. An Inruuts practitioner can recognize when the profile has reached its limit, but cannot diagnose these signs. A licensed medical professional can examine the area and decide whether testing or treatment is appropriate.</p>
+          <p>Your answers include a sudden, patchy, painful, inflamed, heavily scaling or possibly scarring change. An Inruut practitioner can recognize when the profile has reached its limit, but cannot diagnose these signs. A licensed medical professional can examine the area and decide whether testing or treatment is appropriate.</p>
           <div className="care-actions"><button className="secondary-button" onClick={reset}><RotateCcw size={17} /> Retake profile</button><Link className="primary-button" href="/science#red-flags">Review the warning signs <ArrowRight size={17} /></Link></div>
         </div>
       </div>

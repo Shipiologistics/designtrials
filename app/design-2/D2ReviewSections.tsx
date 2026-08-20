@@ -10,7 +10,7 @@ const phases = [
   { month: "Month 0", title: "Document the baseline", copy: "Record the visible pattern before changing the routine." },
   { month: "Month 3", title: "Review fit and consistency", copy: "An early checkpoint is useful for routine fit, not a result deadline." },
   { month: "Month 6", title: "Compare like with like", copy: "Use the same angle, part, hair length, wash timing and light." },
-  { month: "Month 12", title: "Reassess the whole route", copy: "Review direction, tolerance and whether an Inruuts practitioner should pause or adjust the route." },
+  { month: "Month 12", title: "Reassess the whole route", copy: "Review direction, tolerance and whether an Inruut practitioner should pause or adjust the route." },
 ];
 
 const profiles = {
@@ -46,7 +46,7 @@ export function D2PhotoJournal({ subject }: { subject?: Subject }) {
 
 const trustItems = [
   { icon: Camera, image: "/assets/reviews/progress-photo-setup.png", label: "Photo standard", title: "Same angle. Same light. Honest context.", copy: "Useful comparison controls part placement, lighting, styling, wash timing and camera distance." },
-  { icon: ScanSearch, image: "/assets/reviews/practitioner-progress-review.jpg", label: "Practitioner review", title: "Know when the profile should stop.", copy: "An Inruuts practitioner can review context and consistency, then pause the box route when warning signs need outside medical assessment." },
+  { icon: ScanSearch, image: "/assets/reviews/practitioner-progress-review.jpg", label: "Practitioner review", title: "Know when the profile should stop.", copy: "An Inruut practitioner can review context and consistency, then pause the box route when warning signs need outside medical assessment." },
   { icon: Check, image: "/assets/reviews/quality-preparation.png", label: "Quality context", title: "Show the process, not vague authority.", copy: "Formula, manufacturing, stability and claims require documented review before a finished product earns trust." },
 ];
 

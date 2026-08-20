@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { HairCycleExplorer } from "../../components/HairCycleExplorer";
 import { D3CareBoundary, D3Catalogue, D3Definition, D3DoubleFeature, D3Explainer, D3FeatureGrid, D3Final, D3Hero, D3IndexStrip, D3Principles, D3Quote, D3TopicRail } from "../D3Editorial";
 
-export const metadata: Metadata = { title: "Hair Science | Inruuts Design 3", description: "Learn how follicles grow, what DHT does, why shedding happens and how evidence should shape personalized hair care." };
+export const metadata: Metadata = { title: "Hair Science | Inruut Design 3", description: "Learn how follicles grow, what DHT does, why shedding happens and how evidence should shape personalized hair care." };
 
 export default function DesignThreeScience() {
   return <main className="d3-page d3-science">
@@ -42,8 +42,8 @@ export default function DesignThreeScience() {
       { label: "Miniaturizing follicle", title: "Shorter cycle, finer fiber", image: "/assets/follicle-miniaturized.jpg", alt: "Miniaturized hair follicle", copy: "In pattern loss, susceptible follicles can progressively produce shorter, finer hairs over repeated cycles." },
     ]} />
     <D3Quote quote="Not every science-backed statement means the same thing." detail="Finished-product studies, ingredient evidence, instrumental cosmetic testing and customer perception answer different questions." nextTone="white" />
-    <D3CareBoundary image="/assets/lab-ingredients.jpg" alt="Cosmetic formulation laboratory" eyebrow="How Inruuts uses the science" title="Finite rules. Visible reasoning. Clear limits." copy="The profile classifies the reported concern, checks timing and red flags, matches cosmetic categories to scalp and fiber needs, and shows why each item was selected." />
-    <section id="red-flags"><D3CareBoundary image="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner reviewing a client's history" eyebrow="When the practitioner pauses" title="Sudden, patchy, painful, inflamed or scarring loss." copy="These signs may need physical examination, medical history, laboratory testing or prescription treatment outside Inruuts. The online profile should pause rather than force a sale." alert /></section>
+    <D3CareBoundary image="/assets/lab-ingredients.jpg" alt="Cosmetic formulation laboratory" eyebrow="How Inruut uses the science" title="Finite rules. Visible reasoning. Clear limits." copy="The profile classifies the reported concern, checks timing and red flags, matches cosmetic categories to scalp and fiber needs, and shows why each item was selected." />
+    <section id="red-flags"><D3CareBoundary image="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner reviewing a client's history" eyebrow="When the practitioner pauses" title="Sudden, patchy, painful, inflamed or scarring loss." copy="These signs may need physical examination, medical history, laboratory testing or prescription treatment outside Inruut. The online profile should pause rather than force a sale." alert /></section>
     <D3IndexStrip items={["Classify", "Check", "Match", "Explain", "Limit"]} />
     <D3Final image="/assets/personalization-system.jpg" alt="Personalization inputs feeding a recommendation" eyebrow="Evidence before claims" title="Understand the biology. Then build the route." copy="A transparent profile can organize the next question without pretending to replace a clinician." />
   </main>;

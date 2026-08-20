@@ -6,7 +6,7 @@ import { PatternExplorer } from "../components/PatternExplorer";
 import { ProgressSimulation } from "../components/ProgressSimulation";
 import { ThemeLink as Link } from "../components/ThemeLink";
 
-export const metadata: Metadata = { title: "Men's Hair Loss Guide | Inruuts", description: "Understand common male hair-loss patterns, DHT, realistic care options and when to see a dermatologist." };
+export const metadata: Metadata = { title: "Men's Hair Loss Guide | Inruut", description: "Understand common male hair-loss patterns, DHT, realistic care options and when to see a dermatologist." };
 
 const patterns = [
   { label: "Temples", title: "A hairline that slowly moves back", copy: "Male pattern hair loss often begins with recession at the temples. A gradual, symmetric change differs from a sudden patch or inflamed edge.", image: "/assets/men-temples.jpg", alt: "Mild symmetric temple recession" },

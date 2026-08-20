@@ -1,5 +1,5 @@
 import Image from "next/image";
-import type { ReactNode } from "react";
+import type { CSSProperties, ReactNode } from "react";
 import { ArrowRight, BookOpen, Check, CircleAlert, CircleDot, Droplets, Eye, Globe2, RefreshCw, ShieldCheck, Sprout, Star } from "lucide-react";
 import { ThemeLink as Link } from "../components/ThemeLink";
 
@@ -13,7 +13,15 @@ type HeroProps = {
   cta?: string;
 };
 
-type RailItem = { image: string; alt: string; label: string; title: string; copy: string; meta?: string };
+type RailItem = {
+  image: string;
+  alt: string;
+  label: string;
+  title: string;
+  copy: string;
+  meta?: string;
+  slides?: Array<{ image: string; mobileImage?: string; alt: string }>;
+};
 type ProofItem = { title: string; copy: string };
 
 const proofIcons = [ShieldCheck, Star, Globe2, Eye];
@@ -44,14 +52,14 @@ export function D2Hero({ eyebrow, title, copy, image, alt, note, cta = "Take the
 export function D2MethodStrip({ items = ["Pattern", "Timing", "Scalp", "Routine", "Safety"] }: { items?: string[] }) {
   return (
     <section className="d2w-method-strip">
-      <h2>The Inruuts method</h2>
+      <h2>The Inruut method</h2>
       <div>{[...items, ...items].map((item, index) => <span key={`${item}-${index}`}>{item}</span>)}</div>
     </section>
   );
 }
 
-export function D2Definition({ word = "inruuts", line }: { word?: string; line: string }) {
-  return <section className="d2w-definition"><strong>{word.split("").join(" · ")}</strong><p>{line}</p></section>;
+export function D2Definition({ word = "inruut", line }: { word?: string; line: string }) {
+  return <section className="d2w-definition"><strong style={{ "--d2-definition-letters": word.length } as CSSProperties}>{word.split("").join(" · ")}</strong><p>{line}</p></section>;
 }
 
 export function D2Manifesto({ eyebrow, title, copy, items }: { eyebrow: string; title: string; copy: string; items: ProofItem[] }) {
@@ -80,7 +88,11 @@ export function D2RootSystem({ eyebrow = "What is inside", title = "A complete R
           <article key={itemTitle}>
             <div><span>{number}</span><Icon size={30} strokeWidth={1.25} /></div>
             <h3>{itemTitle}</h3>
-            <p>{itemCopy}</p>
+            <p className="d2-desktop-supporting-copy">{itemCopy}</p>
+            <details className="d2-mobile-inline-disclosure">
+              <summary>View this layer</summary>
+              <p>{itemCopy}</p>
+            </details>
           </article>
         ))}
       </div>
@@ -103,11 +115,27 @@ export function D2ProductRail({ eyebrow, title, items }: { eyebrow: string; titl
   );
 }
 
-export function D2ProblemSplit({ image, alt, eyebrow, title, intro, rows, closing }: { image: string; alt: string; eyebrow: string; title: string; intro: string; rows: Array<[string,string]>; closing: string }) {
+export function D2ProblemSplit({ image, mobileImage, imageFit = "cover", alt, eyebrow, title, intro, rows, closing, slides }: { image: string; mobileImage?: string; imageFit?: "cover" | "contain"; alt: string; eyebrow: string; title: string; intro: string; rows: Array<[string,string]>; closing: string; slides?: Array<{ image: string; mobileImage?: string; alt: string }> }) {
   return (
     <section className="d2w-problem">
-      <div className="d2w-problem-image"><Image src={image} alt={alt} fill sizes="(max-width: 760px) 100vw, 50vw" /></div>
-      <div className="d2w-problem-copy"><span>{eyebrow}</span><h2>{title}</h2><p>{intro}</p><div>{rows.map(([left,right]) => <p key={left}><b>{left}</b><em>{right}</em></p>)}</div><strong>{closing}</strong></div>
+      <div className={`d2w-problem-image${slides ? " d2w-problem-image--slideshow" : ""}${mobileImage ? " d2w-problem-image--mobile-source" : ""}${imageFit === "contain" ? " d2w-problem-image--contain" : ""}`} role={slides ? "img" : undefined} aria-label={slides ? alt : undefined}>
+        <Image className="d2w-problem-poster" src={image} alt={alt} fill sizes="(max-width: 760px) 100vw, 50vw" />
+        {mobileImage && <Image className="d2w-problem-mobile-poster" src={mobileImage} alt={alt} fill sizes="(max-width: 900px) 100vw, 50vw" />}
+        {slides && <div className="d2w-problem-slides" aria-hidden="true">
+          {slides.map((slide) => <div key={slide.image}>
+            <Image className="d2w-problem-slide-desktop" src={slide.image} alt="" fill sizes="50vw" />
+            {slide.mobileImage && <Image className="d2w-problem-slide-mobile" src={slide.mobileImage} alt="" fill sizes="100vw" />}
+          </div>)}
+        </div>}
+      </div>
+      <div className="d2w-problem-copy">
+        <span>{eyebrow}</span><h2>{title}</h2><p>{intro}</p>
+        <div className="d2w-problem-details d2w-problem-details--desktop">{rows.map(([left,right]) => <p key={left}><b>{left}</b><em>{right}</em></p>)}<strong>{closing}</strong></div>
+        <details className="d2w-problem-disclosure">
+          <summary>View full breakdown</summary>
+          <div className="d2w-problem-details">{rows.map(([left,right]) => <p key={left}><b>{left}</b><em>{right}</em></p>)}<strong>{closing}</strong></div>
+        </details>
+      </div>
     </section>
   );
 }
@@ -116,7 +144,17 @@ export function D2ConcernRail({ title, items }: { title: ReactNode; items: RailI
   return (
     <section className="d2w-concern-rail">
       <div><h2>{title}</h2><Link href="/quiz">Take the profile</Link></div>
-      <div>{items.map((item) => <article key={item.title}><Image src={item.image} alt={item.alt} fill sizes="260px" /><span>{item.title}</span></article>)}</div>
+      <div>{items.map((item) => (
+        <article key={item.title} className={item.slides ? "d2w-concern-card--slideshow" : undefined}>
+          <Image className="d2w-concern-poster" src={item.image} alt={item.alt} fill sizes="260px" />
+          {item.slides && (
+            <div className="d2w-concern-slides" aria-hidden="true">
+              {item.slides.map((slide) => <div key={slide.image}><Image src={slide.image} alt="" fill sizes="72vw" /></div>)}
+            </div>
+          )}
+          <span className="d2w-concern-title">{item.title}</span>
+        </article>
+      ))}</div>
     </section>
   );
 }

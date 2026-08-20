@@ -10,9 +10,9 @@ const links = [
 export function DesignThreeHeader() {
   return (
     <>
-      <div className="d3-notice"><span>Inruuts field notes</span><p>Personalized hair care for the United States</p><Link href="/design-3/quiz">Start the profile <ArrowUpRight size={14} /></Link></div>
+      <div className="d3-notice"><span>Inruut field notes</span><p>Personalized hair care for the United States</p><Link href="/design-3/quiz">Start the profile <ArrowUpRight size={14} /></Link></div>
       <header className="d3-header">
-        <Link className="d3-brand" href="/design-3" aria-label="Inruuts Design 3 home"><b>INRUUTS</b><span>03</span></Link>
+        <Link className="d3-brand" href="/design-3" aria-label="Inruut Design 3 home"><b>INRUUT</b><span>03</span></Link>
         <nav className="d3-nav" aria-label="Design 3 primary navigation">
           {links.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
         </nav>

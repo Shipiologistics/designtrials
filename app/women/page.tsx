@@ -6,7 +6,7 @@ import { PatternExplorer } from "../components/PatternExplorer";
 import { ProgressSimulation } from "../components/ProgressSimulation";
 import { ThemeLink as Link } from "../components/ThemeLink";
 
-export const metadata: Metadata = { title: "Women's Hair Loss Guide | Inruuts", description: "Understand widening parts, shedding, breakage, life-stage factors and realistic hair-care routes." };
+export const metadata: Metadata = { title: "Women's Hair Loss Guide | Inruut", description: "Understand widening parts, shedding, breakage, life-stage factors and realistic hair-care routes." };
 
 const patterns = [
   { label: "Widening part", title: "Density changing through the center", copy: "Female pattern hair loss often appears as gradual thinning over the top and a widening part while the frontal hairline may remain relatively preserved.", image: "/assets/women-part.jpg", alt: "Widening center part with visible scalp" },

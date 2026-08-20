@@ -6,7 +6,7 @@ export function DesignTwoFooter() {
     <footer className="d2-footer">
       <div className="d2-footer-brand">
         <Link className="d2-wordmark d2-wordmark-footer" href="/design-2">
-          <span>Inruuts</span><small>Hair Root Wellness</small>
+          <span>Inruut</span><small>Hair Root Wellness</small>
         </Link>
         <h2>Understand the change.<br />Build one clear system.</h2>
       </div>
@@ -16,8 +16,8 @@ export function DesignTwoFooter() {
         <Link className="d2-footer-cta" href="/design-2/quiz">Build my plan <ArrowUpRight size={18} /></Link>
       </div>
       <div className="d2-footer-legal">
-        <p>Educational prototype only. Inruuts practitioners do not diagnose, treat, cure, or prevent disease. Product formulas, claims, pricing and referral pathways require U.S. regulatory and qualified professional review before launch.</p>
-        <span>© 2026 Inruuts</span>
+        <p>Educational prototype only. Inruut practitioners do not diagnose, treat, cure, or prevent disease. Product formulas, claims, pricing and referral pathways require U.S. regulatory and qualified professional review before launch.</p>
+        <span>© 2026 Inruut</span>
       </div>
     </footer>
   );

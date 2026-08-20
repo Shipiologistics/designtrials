@@ -1626,6 +1626,24 @@ body:has(.design-two) {
 .design-two .d2w-product-rail p { min-height: 42px; margin: 0; font-size: 12px; line-height: 1.45; }
 .design-two .d2w-product-rail small { display: block; margin-top: 12px; color: #70571f; font-size: 9px; text-transform: uppercase; letter-spacing: 1px; }
 
+/* The science library combines anatomy illustrations with mixed source ratios. */
+.design-two .d2w-science .d2w-product-rail {
+  align-items: start;
+}
+.design-two .d2w-science .d2w-product-rail article > div {
+  height: auto;
+  aspect-ratio: 4 / 3;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #faf8f4;
+}
+.design-two .d2w-science .d2w-product-rail article > div img {
+  object-fit: contain;
+  object-position: center;
+  padding: 8px;
+}
+
 .design-two .d2w-problem { min-height: 837px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 80px 40px 90px; background: #fff; }
 .design-two .d2w-problem-image,
 .design-two .d2w-problem-copy { min-height: 667px; border-radius: 26px; overflow: hidden; }

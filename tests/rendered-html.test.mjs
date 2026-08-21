@@ -84,3 +84,11 @@ test("includes generated editorial assets and the U.S.-only brief", async () => 
   assert.match(readme, /\/design-3\/men/);
   assert.doesNotMatch(readme, /Man Matters hair assessment|NHS: hair loss/);
 });
+
+test("Vercel static export includes every rendered route", async () => {
+  const script = await readFile(new URL("../scripts/build-vercel-static.mjs", import.meta.url), "utf8");
+
+  for (const [pathname] of routes) {
+    assert.match(script, new RegExp(`"${escapeRegExp(pathname)}"`));
+  }
+});

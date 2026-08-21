@@ -19,6 +19,7 @@ const routes = [
   "/design-2/science",
   "/design-2/quiz",
   "/design-2/plan",
+  "/design-2/food-guide",
   "/design-3",
   "/design-3/men",
   "/design-3/women",

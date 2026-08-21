@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PatternExplorer } from "../../components/PatternExplorer";
 import { ProgressSimulation } from "../../components/ProgressSimulation";
 import { D2PhotoJournal } from "../D2ReviewSections";
-import { D2ConcernRail, D2Definition, D2EditorialSplit, D2FinalCampaign, D2Hero, D2Manifesto, D2MethodStrip, D2ProblemSplit, D2ProductRail, D2PromoPair, D2ResultsGallery, D2RootSystem, D2Statement } from "../D2Wireframe";
+import { D2ConcernRail, D2Definition, D2EditorialSplit, D2FinalCampaign, D2Hero, D2Manifesto, D2MethodStrip, D2ProblemSplit, D2ProductRail, D2PromoPair, D2ResultsGallery, D2Statement } from "../D2Wireframe";
 
 export const metadata: Metadata = { title: "Women's Hair Loss Guide | Inruut Design 2", description: "Understand widening parts, shedding, breakage, life-stage factors and realistic hair-care routes." };
 
@@ -23,7 +23,6 @@ export default function DesignTwoWomen() {
       { title: "Styling + processing", copy: "Tension, bleach, heat and friction can affect fibers and edges." },
       { title: "Know when to pause", copy: "Scarring, sudden patches or a painful scalp should pause the box route." },
     ]} />
-    <D2RootSystem eyebrow="The women's box framework" title="Five layers without one-cause assumptions" copy="Cycle and life-stage context can shape the questions, but the system never treats a quiz answer as proof of a hormonal or medical condition." />
     <D2ProductRail eyebrow="Concern guide" title="Loss, shedding, or breakage?" items={patterns.map((item,index) => ({...item, meta: `Concern 0${index + 1}`}))} />
     <D2ProblemSplit image="/assets/shedding-breakage-mobile-v2.jpg" imageFit="contain" alt="Comparison of shedding, breakage and follicle growth" eyebrow="The distinction" title="Shedding and breakage leave different clues." intro="The words are often used interchangeably, but the difference changes what questions and care make sense." rows={[
       ["Shedding", "Full-length strands release from the follicle"],

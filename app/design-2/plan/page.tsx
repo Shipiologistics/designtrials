@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { D2Definition, D2EditorialSplit, D2FinalCampaign, D2Hero, D2MethodStrip, D2ProblemSplit, D2RootSystem, D2Statement } from "../D2Wireframe";
+import { D2Definition, D2EditorialSplit, D2FinalCampaign, D2Hero, D2MethodStrip, D2ProblemSplit, D2Statement } from "../D2Wireframe";
 
 export const metadata: Metadata = {
   title: "The Inruut Wellness Box | Design 2",
@@ -11,7 +11,6 @@ export default function DesignTwoPlan() {
     <D2Hero eyebrow="The Inruut Wellness Box" title="A system, not a pill." copy="One personalized box brings nourishment, internal balance, scalp care, targeted root support and a simple ritual into one routine built around you." image="/assets/root-wellness-box.jpg" alt="Illustrative open Inruut Wellness Box with five coordinated components" note="Five connected layers · Every step explained" cta="Build my personalized box" />
     <D2MethodStrip items={["Nourish", "Balance", "Root", "Stimulate", "Ritual"]} />
     <D2Definition word="system" line="Individually, each layer has a job. Together, they support the foundation from the root outward." />
-    <D2RootSystem />
     <D2ProblemSplit image="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner reviewing a routine journal with a client" eyebrow="Before anything is selected" title="Your history shapes the box." intro="An Inruut practitioner-led profile organizes the visible concern and the practical context before a recommendation is shown." rows={[
       ["What you notice", "Pattern, shedding, breakage or scalp discomfort"],
       ["When it changed", "Recent, gradual, recurring or long-standing"],

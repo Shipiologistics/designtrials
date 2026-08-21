@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { HairCycleExplorer } from "../../components/HairCycleExplorer";
 import { ScienceStatusExplorer } from "../../components/ScienceStatusExplorer";
-import { D2ConcernRail, D2Definition, D2EditorialSplit, D2FinalCampaign, D2Hero, D2Manifesto, D2MethodStrip, D2ProblemSplit, D2ProductRail, D2PromoPair, D2ResultsGallery, D2RootSystem, D2Statement } from "../D2Wireframe";
+import { D2ConcernRail, D2Definition, D2EditorialSplit, D2FinalCampaign, D2Hero, D2Manifesto, D2MethodStrip, D2ProblemSplit, D2ProductRail, D2PromoPair, D2ResultsGallery, D2Statement } from "../D2Wireframe";
 
 export const metadata: Metadata = { title: "Hair Science | Inruut Design 2", description: "Learn how follicles grow, what DHT does, why shedding happens and how evidence should shape personalized hair care." };
 
@@ -48,13 +48,12 @@ export default function DesignTwoScience() {
       { title: "Telogen", copy: "The resting phase ends as the old strand releases." },
       { title: "Repeated cycles", copy: "Changes today can reflect biology that shifted months earlier." },
     ]} />
-    <D2RootSystem eyebrow="How the science becomes a system" title="Five layers, five different jobs" copy="Inruut practitioners use the profile to explain which layers may fit, where the evidence stops and which details must be reviewed before any recommendation becomes purchasable." />
     <D2ProductRail eyebrow="Science library" title="Five systems shape the route" items={[
-      { label: "01", title: "Healthy terminal follicle", image: "/assets/follicle-healthy.jpg", alt: "Healthy growing follicle", copy: "A longer growth phase supports a thicker, longer fiber.", meta: "Follicle anatomy" },
-      { label: "02", title: "Miniaturizing follicle", image: "/assets/follicle-miniaturized.jpg", alt: "Miniaturized follicle", copy: "Susceptible follicles can produce progressively finer fibers.", meta: "Pattern loss" },
-      { label: "03", title: "Growth cycle", image: "/assets/hair-cycle.jpg", alt: "Hair growth cycle", copy: "Growth, transition, rest and release happen on a delayed timeline.", meta: "Cycle biology" },
-      { label: "04", title: "Scalp environment", image: "/assets/scalp-barrier.jpg", alt: "Scalp barrier illustration", copy: "Comfort and cleansing matter, but cannot diagnose the cause of loss.", meta: "Scalp care" },
-      { label: "05", title: "Nutrition pathway", image: "/assets/nutrient-pathway.jpg", alt: "Nutrients reaching a follicle", copy: "Adequacy matters; more supplementation is not unlimited growth.", meta: "Health context" },
+      { label: "01", title: "Healthy terminal follicle", image: "/assets/science-library-healthy-v2.jpg", alt: "Three healthy terminal follicles producing thick hair fibers", copy: "A longer growth phase supports a thicker, longer fiber.", meta: "Follicle anatomy" },
+      { label: "02", title: "Miniaturizing follicle", image: "/assets/science-library-miniaturization-v2.jpg", alt: "Three follicles showing progressive miniaturization", copy: "Susceptible follicles can produce progressively finer fibers.", meta: "Pattern loss" },
+      { label: "03", title: "Growth cycle", image: "/assets/science-library-cycle-v2.jpg", alt: "Follicles shown at different stages of the growth cycle", copy: "Growth, transition, rest and release happen on a delayed timeline.", meta: "Cycle biology" },
+      { label: "04", title: "Scalp environment", image: "/assets/science-library-scalp-v2.jpg", alt: "Balanced scalp barrier surrounding healthy follicles", copy: "Comfort and cleansing matter, but cannot diagnose the cause of loss.", meta: "Scalp care" },
+      { label: "05", title: "Nutrition pathway", image: "/assets/science-library-nutrition-v2.jpg", alt: "Nutrients traveling through capillaries toward a hair follicle", copy: "Adequacy matters; more supplementation is not unlimited growth.", meta: "Health context" },
     ]} />
     <D2ProblemSplit image="/assets/science-genetics-family.png" alt="Father and adult son reviewing family photos with similar hairline patterns" eyebrow="Genetics + DHT" title="Genes decide which follicles hear the signal too loudly." intro="DHT is a normal hormone. In androgenetic alopecia, inherited follicle sensitivity changes how certain scalp regions respond, shortening the growth phase and gradually producing finer fibers." rows={[
       ["Genes + androgens", "Gradual patterned miniaturization"],

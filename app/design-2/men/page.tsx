@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { PatternExplorer } from "../../components/PatternExplorer";
 import { ProgressSimulation } from "../../components/ProgressSimulation";
 import { D2PhotoJournal } from "../D2ReviewSections";
-import { D2ConcernRail, D2Definition, D2EditorialSplit, D2FinalCampaign, D2Hero, D2Manifesto, D2MethodStrip, D2ProblemSplit, D2ProductRail, D2PromoPair, D2ResultsGallery, D2RootSystem, D2Statement } from "../D2Wireframe";
+import { D2ConcernRail, D2Definition, D2EditorialSplit, D2FinalCampaign, D2Hero, D2Manifesto, D2MethodStrip, D2ProblemSplit, D2ProductRail, D2PromoPair, D2ResultsGallery, D2Statement } from "../D2Wireframe";
 
 export const metadata: Metadata = { title: "Men's Hair Loss Guide | Inruut Design 2", description: "Understand common male hair-loss patterns, DHT, realistic Hair Root Wellness routes and responsible referral boundaries." };
 
@@ -23,7 +23,6 @@ export default function DesignTwoMen() {
       { title: "Progression varies", copy: "Age, stage and consistency influence the individual timeline." },
       { title: "The route has limits", copy: "Sudden patches or inflammation should pause a practitioner-led box recommendation." },
     ]} />
-    <D2RootSystem eyebrow="The men's box framework" title="Five layers, selected around the pattern" copy="The profile can organize a pattern-focused system while keeping exact formulas, instructions and limitations visible before purchase." />
     <D2ProductRail eyebrow="Pattern guide" title="What are you seeing?" items={patterns.map((item,index) => ({...item, meta: `Pattern 0${index + 1}`}))} />
     <D2ProblemSplit image="/assets/dht-mechanism.jpg" alt="DHT interaction and follicle miniaturization" eyebrow="The mechanism" title="Genes determine which scalp follicles are sensitive." intro="Pattern hair loss follows recognizable scalp regions because susceptible follicles can respond differently over repeated cycles." rows={[
       ["Testosterone", "A normal androgen hormone"],

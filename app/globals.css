@@ -1632,7 +1632,7 @@ body:has(.design-two) {
 }
 .design-two .d2w-science .d2w-product-rail article > div {
   height: auto;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1;
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -1641,7 +1641,7 @@ body:has(.design-two) {
 .design-two .d2w-science .d2w-product-rail article > div img {
   object-fit: contain;
   object-position: center;
-  padding: 8px;
+  padding: 0;
 }
 
 .design-two .d2w-problem { min-height: 837px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; padding: 80px 40px 90px; background: #fff; }
@@ -1717,6 +1717,18 @@ body:has(.design-two) {
 .design-two .d2w-interactive .pattern-explorer,
 .design-two .d2w-interactive .cycle-explorer,
 .design-two .d2w-interactive .simulation { border: 1px solid #cfcfcf; border-radius: 0; }
+.design-two .d2w-interactive .cycle-explorer {
+  min-height: 0;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+}
+.design-two .d2w-interactive .cycle-image {
+  min-height: 0;
+  aspect-ratio: 1;
+  background: #f8f4ec;
+}
+.design-two .d2w-interactive .cycle-phase-image { object-fit: contain; }
+.design-two .d2w-interactive .cycle-panel { min-height: 100%; }
 .design-two .d2w-interactive .pattern-tabs button.active,
 .design-two .d2w-interactive .cycle-buttons button.active,
 .design-two .d2w-interactive .range-labels button.active { border-color: var(--d2w-gold); background: var(--d2w-gold); color: #050505; }

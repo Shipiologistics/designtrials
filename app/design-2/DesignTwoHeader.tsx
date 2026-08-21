@@ -6,12 +6,13 @@ const links = [
   ["Women", "/design-2/women"],
   ["The science", "/design-2/science"],
   ["The box", "/design-2/plan"],
+  ["Food guide", "/design-2/food-guide"],
 ];
 
 export function DesignTwoHeader() {
   return (
     <>
-      <div className="d2-announcement">One profile. One personalized Hair Root Wellness Box. Every layer explained.</div>
+      <div className="d2-announcement">Understand the change. Support the root. Build a routine that fits.</div>
       <header className="d2-header">
         <Link className="d2-icon-link d2-search" href="/design-2/science" aria-label="Search the science"><Search size={19} /></Link>
         <nav className="d2-nav d2-nav-left" aria-label="Design 2 primary navigation">
@@ -24,6 +25,7 @@ export function DesignTwoHeader() {
         <nav className="d2-nav d2-nav-right" aria-label="Design 2 secondary navigation">
           <Link href="/design-2/science">The science</Link>
           <Link href="/design-2/plan">The box</Link>
+          <Link href="/design-2/food-guide">Food guide</Link>
           <Link href="/design-2/quiz">Hair profile</Link>
         </nav>
         <div className="d2-actions">

@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { D2Definition, D2FinalCampaign, D2Hero, D2MethodStrip, D2ProblemSplit, D2RootSystem, D2Statement } from "../D2Wireframe";
+import { D2Definition, D2EditorialSplit, D2FinalCampaign, D2Hero, D2MethodStrip, D2ProblemSplit, D2RootSystem, D2Statement } from "../D2Wireframe";
 
 export const metadata: Metadata = {
-  title: "Hair Root Wellness Box | Inruut Design 2",
-  description: "Explore the five-part Inruut Hair Root Wellness Box and see how a personalized system is explained before purchase.",
+  title: "The Inruut Wellness Box | Design 2",
+  description: "Explore the five-layer Inruut Wellness Box and see how nourishment, balance, scalp care, targeted support and ritual come together.",
 };
 
 export default function DesignTwoPlan() {
   return <main className="d2w-page d2w-plan">
-    <D2Hero eyebrow="The Inruut Hair Root Wellness Box" title="A system, not just products." copy="One personalized box brings the internal foundation, scalp environment, growth-cycle review, root-focused ritual and simple guidance into one explainable routine." image="/assets/root-wellness-box.jpg" alt="Illustrative open Hair Root Wellness Box with five coordinated ritual components" note="Illustrative framework · Final contents shown before purchase" cta="Build my personalized box" />
-    <D2MethodStrip items={["Foundation", "Scalp", "Cycle", "Root", "Ritual"]} />
-    <D2Definition word="system" line="Individually, each element has a role. Together, they become a routine you can understand and maintain." />
+    <D2Hero eyebrow="The Inruut Wellness Box" title="A system, not a pill." copy="One personalized box brings nourishment, internal balance, scalp care, targeted root support and a simple ritual into one routine built around you." image="/assets/root-wellness-box.jpg" alt="Illustrative open Inruut Wellness Box with five coordinated components" note="Five connected layers · Every step explained" cta="Build my personalized box" />
+    <D2MethodStrip items={["Nourish", "Balance", "Root", "Stimulate", "Ritual"]} />
+    <D2Definition word="system" line="Individually, each layer has a job. Together, they support the foundation from the root outward." />
     <D2RootSystem />
     <D2ProblemSplit image="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner reviewing a routine journal with a client" eyebrow="Before anything is selected" title="Your history shapes the box." intro="An Inruut practitioner-led profile organizes the visible concern and the practical context before a recommendation is shown." rows={[
       ["What you notice", "Pattern, shedding, breakage or scalp discomfort"],
@@ -29,6 +29,7 @@ export default function DesignTwoPlan() {
       </div>
     </section>
     <D2Statement quote="The framework can create curiosity. The purchase must create clarity." detail="This local prototype does not yet represent final formulas, claims, prices or a purchasable box. Those details remain visible requirements, not details to hide after payment." />
-    <D2FinalCampaign image="/assets/root-wellness-box.jpg" alt="Illustrative Inruut Hair Root Wellness Box" eyebrow="Your box begins with your profile" title="Five layers. One understandable route." copy="Answer seven focused questions and receive one illustrative system recommendation with visible reasoning and a clear safety boundary." />
+    <D2EditorialSplit image="/assets/food-guide-hero.jpg" alt="Whole foods arranged on a warm kitchen table" eyebrow="Included after purchase" title="The routine continues beyond the box." copy="The Inruut Food Guide helps turn the root-first philosophy into practical meals, hydration habits, supplement cautions and a routine that can be sustained." href="/food-guide" cta="Preview the Food Guide" />
+    <D2FinalCampaign image="/assets/root-wellness-box.jpg" alt="Illustrative Inruut Wellness Box" eyebrow="Your box begins with your profile" title="Five layers. One understandable routine." copy="Answer seven focused questions and receive one personalized starting point with every layer and caution clearly explained." />
   </main>;
 }

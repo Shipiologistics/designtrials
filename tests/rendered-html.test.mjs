@@ -29,7 +29,8 @@ const routes = [
   ["/design-2/women", "Your hair change deserves more than one explanation", "Women's Hair Loss Guide | Inruut Design 2"],
   ["/design-2/science", "Hair biology, explained without turning it into a sales trick", "Hair Science | Inruut Design 2"],
   ["/design-2/quiz", "Seven useful questions", "Hair Quiz | Inruut Design 2"],
-  ["/design-2/plan", "A system, not just products", "Hair Root Wellness Box | Inruut Design 2"],
+  ["/design-2/plan", "A system, not a pill", "The Inruut Wellness Box | Design 2"],
+  ["/design-2/food-guide", "The Inruut Food Guide", "The Inruut Food Guide | Design 2"],
   ["/design-3", "Know what is behind your hair change", "Inruut Design 3 | Personalized Hair Care"],
   ["/design-3/men", "Understand the pattern before you choose the plan", "Men's Hair Loss Guide | Inruut Design 3"],
   ["/design-3/women", "Your hair change deserves more than one explanation", "Women's Hair Loss Guide | Inruut Design 3"],
@@ -61,6 +62,7 @@ test("includes generated editorial assets and the U.S.-only brief", async () => 
     "reviews/men-month-0.png", "reviews/men-month-3.png", "reviews/men-month-6.png", "reviews/men-month-12.png",
     "reviews/women-month-0.png", "reviews/women-month-3.png", "reviews/women-month-6.png", "reviews/women-month-12.png",
     "reviews/practitioner-progress-review.jpg", "reviews/progress-photo-setup.png", "reviews/quality-preparation.png",
+    "food-guide-hero.jpg", "food-guide-plate.jpg", "food-guide-water.jpg",
   ];
   await Promise.all(assets.map((name) => access(new URL(`../public/assets/${name}`, import.meta.url))));
   await access(new URL("../public/og-inruut.png", import.meta.url));

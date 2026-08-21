@@ -21,7 +21,7 @@ export default function DesignTwoWomen() {
       { title: "Postpartum", copy: "Hormonal changes can move more hairs into a resting phase after birth." },
       { title: "Perimenopause", copy: "Age, medications, thyroid disease and iron status can overlap." },
       { title: "Styling + processing", copy: "Tension, bleach, heat and friction can affect fibers and edges." },
-      { title: "Practitioner boundary", copy: "Scarring, sudden patches or a painful scalp should pause the box route." },
+      { title: "Know when to pause", copy: "Scarring, sudden patches or a painful scalp should pause the box route." },
     ]} />
     <D2RootSystem eyebrow="The women's box framework" title="Five layers without one-cause assumptions" copy="Cycle and life-stage context can shape the questions, but the system never treats a quiz answer as proof of a hormonal or medical condition." />
     <D2ProductRail eyebrow="Concern guide" title="Loss, shedding, or breakage?" items={patterns.map((item,index) => ({...item, meta: `Concern 0${index + 1}`}))} />

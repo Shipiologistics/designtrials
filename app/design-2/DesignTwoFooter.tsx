@@ -12,7 +12,7 @@ export function DesignTwoFooter() {
       </div>
       <div className="d2-footer-links">
         <div><span>Explore</span><Link href="/design-2/men">Men</Link><Link href="/design-2/women">Women</Link><Link href="/design-2/science">The science</Link></div>
-        <div><span>Your system</span><Link href="/design-2/plan">The Hair Root Wellness Box</Link><Link href="/design-2/quiz">Take the hair quiz</Link><Link href="/design-2/science#red-flags">Referral guidance</Link></div>
+        <div><span>Your system</span><Link href="/design-2/plan">The Inruut Wellness Box</Link><Link href="/design-2/food-guide">The Food Guide</Link><Link href="/design-2/quiz">Take the hair quiz</Link></div>
         <Link className="d2-footer-cta" href="/design-2/quiz">Build my plan <ArrowUpRight size={18} /></Link>
       </div>
       <div className="d2-footer-legal">

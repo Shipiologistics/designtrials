@@ -441,9 +441,9 @@ The live Alitura homepage is the primary design-language reference for Design 2:
 
 Design 2 also includes generated men’s and women’s four-phase photo journals plus practitioner-led trust photography for standardized progress documentation, responsible referral guidance and quality preparation. Inruut practitioners must not be visually presented as doctors. Every generated sequence must be identified as illustrative education rather than a real customer testimonial, product-performance claim or guaranteed result.
 
-Local routes: `/design-2`, `/design-2/men`, `/design-2/women`, `/design-2/science`, `/design-2/quiz`, `/design-2/plan`
+Local routes: `/design-2`, `/design-2/men`, `/design-2/women`, `/design-2/science`, `/design-2/quiz`, `/design-2/plan`, `/design-2/food-guide`
 
-The current local Design 2 implementation includes the five-part Root Wellness System, one-box quiz recommendation paths, optional end-of-quiz email capture with a no-email route, the plan/product-detail framework, practitioner-led trust imagery and responsible referral language. Final formulas, prices, claims and checkout remain illustrative and blocked pending approval.
+The current local Design 2 implementation includes the consumer-facing five-layer system (`Nourish`, `Balance`, `Root`, `Stimulate`, `Ritual`), one-box quiz paths, optional end-of-quiz email capture with a no-email route, the plan/product-detail framework, a post-purchase Food Guide, practitioner-led trust imagery and responsible referral language. Final formulas, prices, claims and checkout remain illustrative and blocked pending approval.
 
 ### Design 3: minimal clinical journal
 

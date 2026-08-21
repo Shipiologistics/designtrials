@@ -49,7 +49,7 @@ const concerns = [
   },
   {
     label: "Care",
-    title: "Practitioner boundary",
+    title: "Know when to pause",
     image: "/assets/reviews/practitioner-progress-review.jpg",
     alt: "Practitioner reviewing standardized hair progress photographs",
     copy: "",
@@ -65,23 +65,23 @@ const concerns = [
 
 export default function DesignTwoHome() {
   return <main className="d2w-page d2w-home">
-    <D2Hero eyebrow="Personalized Hair Root Wellness" title="Know what is behind your hair change." copy="Inruut practitioners look at the pattern, timeline, scalp context, life rhythm and preferences before recommending one coordinated Hair Root Wellness Box." image="/assets/home-hero.jpg" alt="A diverse group of adults representing different hair textures" note="One profile · One box · Every layer explained" />
-    <D2MethodStrip />
-    <D2Definition line="A personalized five-layer system built around pattern, scalp, timing, preference and safety." />
-    <D2Manifesto eyebrow="The Inruut difference" title="Immaculate reasoning. Explainable recommendations." copy="Good personalization begins by admitting what the quiz cannot know, then making every recommendation and limitation visible." items={[
-      { title: "Pattern before product", copy: "Where the change appears helps determine the next useful question." },
-      { title: "Timing changes the route", copy: "Gradual, sudden and delayed changes should not receive one answer." },
-      { title: "The whole routine matters", copy: "Scalp, fiber, habits and time available shape the plan." },
-      { title: "Clear practitioner boundary", copy: "Warning signs make the practitioner pause the box and recommend outside care." },
+    <D2Hero eyebrow="Personalized Hair Root Wellness" title="Know what is behind your hair change." copy="Your hair is giving you information. Inruut helps you understand what may be behind the change, then supports it from the root outward." image="/assets/home-hero.jpg" alt="A diverse group of adults representing different hair textures" note="Understand the change · Support the root" />
+    <D2MethodStrip items={["Nourish", "Balance", "Root", "Stimulate", "Ritual"]} />
+    <D2Definition line="Your hair does not operate independently. It reflects what is happening at the scalp, at the root and throughout the body." />
+    <D2Manifesto eyebrow="The Inruut difference" title="Hair growth starts at the root. But the root is your body." copy="Hair does not exist in isolation. Nourishment, scalp health, lifestyle, hormones, stress and routine can all influence what you see in the mirror. Inruut brings those layers together into one personalized system." items={[
+      { title: "Listen to the change", copy: "Where, when and how your hair changes can reveal which questions are worth asking first." },
+      { title: "Look at the whole person", copy: "Food, stress, health history, life stage and daily habits belong in the same conversation." },
+      { title: "Support from within and out", copy: "Nourishment and scalp care work as coordinated layers, not disconnected quick fixes." },
+      { title: "Build something livable", copy: "A useful system should fit real life and make every step easy to understand." },
     ]} />
-    <D2RootSystem />
-    <D2ProblemSplit image="/assets/root-wellness-box.jpg" alt="Illustrative open Hair Root Wellness Box with five coordinated components" eyebrow="The problem" title="One visible symptom can come from very different routes." intro="Pattern, timing and symptoms change what care makes sense. A useful profile separates the signals before it recommends one coordinated box." rows={[
-      ["Gradual pattern", "Review location, progression and available routes"],
-      ["More shedding", "Look backward for illness, birth, stress or weight change"],
-      ["Breakage", "Protect the fiber from heat, chemistry, friction and tension"],
-      ["Scalp discomfort", "Support comfort and identify signs needing assessment"],
-      ["Sudden patches", "Pause the box and recommend outside medical assessment"],
-    ]} closing="Read the pattern. Then build the route." />
+    <D2RootSystem eyebrow="One personalized system" title="Nourish. Balance. Root. Stimulate. Ritual." copy="The Inruut Wellness Box brings five connected layers together around your profile, so the routine supports the foundation instead of chasing one visible symptom." />
+    <D2ProblemSplit image="/assets/root-wellness-box.jpg" alt="Illustrative open Inruut Wellness Box with coordinated components" eyebrow="Why personalized care matters" title="The same hair change can have a different story behind it." intro="A widening part, a thinner crown, extra shedding, breakage and scalp discomfort do not all begin in the same place. Inruut starts with the context before building the routine." rows={[
+      ["What changed", "Thinning, shedding, breakage or scalp discomfort"],
+      ["Where it changed", "Hairline, crown, part, patches or all over"],
+      ["When it began", "Recent, gradual, recurring or long-standing"],
+      ["What surrounds it", "Food, stress, health, life stage and routine"],
+      ["What feels realistic", "A system that fits your preferences and daily life"],
+    ]} closing="Understand the change. Then support the root." />
     <D2ConcernRail title={<>Discover a <i>personalized</i> route</>} items={concerns} />
     <D2ResultsGallery eyebrow="Real patterns · Responsible expectations" title="What are you actually seeing?" copy="These generated educational visuals explain patterns and time. They are not customer testimonials or guaranteed outcomes." items={[
       { label: "Pattern", title: "Crown thinning over time", image: "/assets/results-crown-progression-v2.png", alt: "Generated side-by-side crown thinning progression", copy: "Start with pattern stage, progression and evidence-based options.", meta: "Generated educational visual" },
@@ -92,12 +92,12 @@ export default function DesignTwoHome() {
     <D2PhotoJournal />
     <D2TrustFramework />
     <D2PromoPair items={[
-      { label: "What we are made of", title: "Evidence before claims", image: "/assets/lab-ingredients.jpg", alt: "Cosmetic formulation laboratory", copy: "Ingredient evidence is useful context, but it does not automatically prove a finished formula performs the same way." },
-      { label: "Whole-system approach", title: "More than one bottle", image: "/assets/root-wellness-box.jpg", alt: "Illustrative Hair Root Wellness Box", copy: "Foundation, scalp, cycle, root and ritual layers change with the profile instead of sending everyone the same set." },
+      { label: "The Inruut Food Guide", title: "Food first. Supplements with a job.", image: "/assets/food-guide-hero.jpg", alt: "Whole foods arranged on a warm kitchen table", copy: "Build the nutritional foundation with real food, thoughtful choices and supplements used intentionally rather than automatically.", href: "/food-guide", cta: "Open the Food Guide" },
+      { label: "The Inruut Wellness Box", title: "A system, not a pill", image: "/assets/root-wellness-box.jpg", alt: "Illustrative Inruut Wellness Box", copy: "Nourishment, internal balance, scalp care, targeted practices and a simple ritual work together around the profile.", href: "/plan", cta: "Explore the system" },
     ]} />
-    <D2Statement quote="Good personalization begins by admitting what the quiz cannot know." detail="Pattern, speed and symptoms can guide the next question. They cannot replace a scalp examination, medical history or laboratory testing when those are needed." />
-    <D2EditorialSplit image="/assets/practitioner-conversation.jpg" alt="Hair wellness practitioner reviewing a client's routine journal" eyebrow="When the profile should pause" title="A responsible practitioner knows the boundary." copy="Sudden shedding, round patches, pain, inflammation, scaling, scarring or eyebrow loss should be referred for outside licensed medical assessment before a box is recommended." alert />
-    <D2MethodStrip items={["Understand", "Assess", "Explain", "Build", "Review"]} />
-    <D2FinalCampaign image="/assets/root-wellness-box.jpg" alt="Illustrative Inruut Hair Root Wellness Box" eyebrow="Your system, explained" title="Five layers. One personalized box. No mystery at checkout." copy="The profile takes about three minutes, shows one working recommendation and lets you view the result without providing contact details." />
+    <D2Statement quote="This is not about throwing another supplement at the problem. It is about rebuilding the foundation." detail="Inruut treats supplements as targeted support, food as the everyday base and consistency as the part that turns a collection of products into a real routine." />
+    <D2EditorialSplit image="/assets/food-guide-plate.jpg" alt="A simple balanced meal prepared in a home kitchen" eyebrow="A lifestyle, not a diet" title="Eat simply. Eat intentionally. Make the routine sustainable." copy="The Inruut Food Guide turns the root-first philosophy into practical choices for meals, hydration and intentional supplementation after your box arrives." href="/food-guide" cta="Read the Food Guide" />
+    <D2MethodStrip items={["Understand", "Nourish", "Support", "Practice", "Review"]} />
+    <D2FinalCampaign image="/assets/root-wellness-box.jpg" alt="Illustrative Inruut Wellness Box" eyebrow="Your system, explained" title="Understand the change. Support the root. Build a routine you can follow." copy="The profile takes about three minutes and brings the five layers together in one clear, personalized starting point." />
   </main>;
 }

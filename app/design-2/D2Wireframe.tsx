@@ -20,6 +20,8 @@ type RailItem = {
   title: string;
   copy: string;
   meta?: string;
+  href?: string;
+  cta?: string;
   slides?: Array<{ image: string; mobileImage?: string; alt: string }>;
 };
 type ProofItem = { title: string; copy: string };
@@ -27,11 +29,11 @@ type ProofItem = { title: string; copy: string };
 const proofIcons = [ShieldCheck, Star, Globe2, Eye];
 
 const rootSystemItems = [
-  { icon: CircleDot, number: "01", title: "Foundation support", copy: "Internal nourishment is considered in context, with exact formulas, amounts and cautions visible before purchase." },
-  { icon: Droplets, number: "02", title: "Scalp environment", copy: "Cleansing and topical care are selected around comfort, buildup, wash frequency and routine fit." },
-  { icon: RefreshCw, number: "03", title: "Growth-cycle alignment", copy: "The plan sets a realistic review rhythm around the hair cycle instead of promising an instant deadline." },
-  { icon: Sprout, number: "04", title: "Root-focused ritual", copy: "A direct scalp or tool-based step belongs only when the profile, instructions and safety boundaries support it." },
-  { icon: BookOpen, number: "05", title: "Guided ritual", copy: "A concise routine card turns the selected elements into daily, weekly and review steps that can be maintained." },
+  { icon: CircleDot, number: "01", title: "Nourish", copy: "Support the body's nutritional foundation with food first and targeted supplements only when they have a clear purpose." },
+  { icon: RefreshCw, number: "02", title: "Balance", copy: "Consider stress, lifestyle, hormones, health history and other internal factors connected to healthy hair." },
+  { icon: Droplets, number: "03", title: "Root", copy: "Care for the scalp and root environment with cleansing and topical support that fit the person." },
+  { icon: Sprout, number: "04", title: "Stimulate", copy: "Add targeted topical or root-focused practices only when they are appropriate, understood and safe." },
+  { icon: BookOpen, number: "05", title: "Ritual", copy: "Turn the selected layers into a simple daily and weekly routine that can actually be maintained." },
 ];
 
 export function D2Hero({ eyebrow, title, copy, image, alt, note, cta = "Take the hair quiz" }: HeroProps) {
@@ -76,7 +78,7 @@ export function D2Manifesto({ eyebrow, title, copy, items }: { eyebrow: string; 
   );
 }
 
-export function D2RootSystem({ eyebrow = "What is inside", title = "A complete Root Wellness System", copy = "Five coordinated layers support the internal foundation, scalp environment, hair-growth cycle, root-focused routine and the consistency that connects them." }: { eyebrow?: string; title?: string; copy?: string }) {
+export function D2RootSystem({ eyebrow = "The root-first system", title = "Five layers. One whole-person routine.", copy = "Inruut brings nourishment, internal balance, scalp care, targeted stimulation and a maintainable ritual together around the person—not just the strand." }: { eyebrow?: string; title?: string; copy?: string }) {
   return (
     <section className="d2-root-system">
       <header>
@@ -97,7 +99,7 @@ export function D2RootSystem({ eyebrow = "What is inside", title = "A complete R
         ))}
       </div>
       <footer>
-        <p><b>Nothing is filler.</b> Every selected component must have a stated role, full pre-purchase details and a clear reason for inclusion.</p>
+        <p><b>Nothing is included without a reason.</b> Every selected component has a clear role, practical instructions and visible cautions.</p>
         <Link href="/plan">Explore the box framework <ArrowRight size={15} /></Link>
       </footer>
     </section>
@@ -171,7 +173,7 @@ export function D2ResultsGallery({ eyebrow, title, copy, items, children }: { ey
 export function D2PromoPair({ items }: { items: [RailItem,RailItem] }) {
   return (
     <section className="d2w-promo-pair">
-      {items.map((item) => <article key={item.title}><Image src={item.image} alt={item.alt} fill sizes="(max-width: 760px) 100vw, 50vw" /><div><span>{item.label}</span><h2>{item.title}</h2><p>{item.copy}</p><Link href="/science">Explore the science <ArrowRight size={15} /></Link></div></article>)}
+      {items.map((item) => <article key={item.title}><Image src={item.image} alt={item.alt} fill sizes="(max-width: 760px) 100vw, 50vw" /><div><span>{item.label}</span><h2>{item.title}</h2><p>{item.copy}</p><Link href={item.href || "/science"}>{item.cta || "Explore the science"} <ArrowRight size={15} /></Link></div></article>)}
     </section>
   );
 }
@@ -180,9 +182,9 @@ export function D2Statement({ quote, detail }: { quote: string; detail: string }
   return <section className="d2w-statement"><div><Star size={26} fill="currentColor" /><Star size={26} fill="currentColor" /><Star size={26} fill="currentColor" /><Star size={26} fill="currentColor" /><Star size={26} fill="currentColor" /></div><blockquote>{quote}</blockquote><p>{detail}</p></section>;
 }
 
-export function D2EditorialSplit({ image, alt, eyebrow, title, copy, alert = false }: { image: string; alt: string; eyebrow: string; title: string; copy: string; alert?: boolean }) {
+export function D2EditorialSplit({ image, alt, eyebrow, title, copy, alert = false, href, cta }: { image: string; alt: string; eyebrow: string; title: string; copy: string; alert?: boolean; href?: string; cta?: string }) {
   return (
-    <section className="d2w-editorial-split"><div><Image src={image} alt={alt} fill sizes="(max-width: 760px) 100vw, 50vw" /></div><article>{alert ? <CircleAlert size={30} /> : <Check size={30} />}<span>{eyebrow}</span><h2>{title}</h2><p>{copy}</p><Link href={alert ? "/science#red-flags" : "/quiz"}>{alert ? "Review care guidance" : "Build my profile"} <ArrowRight size={15} /></Link></article></section>
+    <section className="d2w-editorial-split"><div><Image src={image} alt={alt} fill sizes="(max-width: 760px) 100vw, 50vw" /></div><article>{alert ? <CircleAlert size={30} /> : <Check size={30} />}<span>{eyebrow}</span><h2>{title}</h2><p>{copy}</p><Link href={href || (alert ? "/science#red-flags" : "/quiz")}>{cta || (alert ? "Review care guidance" : "Build my profile")} <ArrowRight size={15} /></Link></article></section>
   );
 }
 

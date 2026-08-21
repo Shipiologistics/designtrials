@@ -33,28 +33,28 @@ const questions: Question[] = [
 const boxes = {
   cycle: {
     name: "Cycle Root Balance Box",
-    summary: "A working recommendation for cycle or life-stage context, designed around a manageable scalp, nourishment and review ritual without claiming to diagnose hormone status.",
+    summary: "A personalized starting point for cycle or life-stage context, bringing nourishment, scalp care and a manageable review ritual together without claiming to diagnose hormone status.",
   },
   reset: {
     name: "Root Reset Box",
-    summary: "A working recommendation for stress-linked shedding context, with a deliberately simple routine and a review point that looks beyond products alone.",
+    summary: "A personalized starting point for stress-linked shedding context, with a deliberately simple routine that looks beyond products alone.",
   },
   pattern: {
     name: "Pattern Root Support Box",
-    summary: "A working recommendation for gradual hairline, crown or overall pattern concerns, organized around scalp fit, consistency and realistic timelines.",
+    summary: "A personalized starting point for gradual hairline, crown or overall pattern concerns, organized around root support, consistency and realistic timelines.",
   },
   scalp: {
     name: "Scalp Restore Box",
-    summary: "A working recommendation centered on comfort, cleansing rhythm and topical fit when irritation or buildup is the main reported concern.",
+    summary: "A personalized starting point centered on comfort, cleansing rhythm and topical fit when irritation or buildup is the main reported concern.",
   },
 };
 
 const layerCopy = [
-  ["Foundation support", "Internal nourishment considered with formula, amount and cautions shown before purchase."],
-  ["Scalp environment", "Cleansing and topical care matched to the reported scalp context."],
-  ["Growth-cycle alignment", "A realistic timeline for consistency, documentation and reassessment."],
-  ["Root-focused ritual", "A direct scalp or tool-based step only when approved and appropriate."],
-  ["Guided ritual", "A concise daily, weekly and review routine."],
+  ["Nourish", "Food-first nutritional support with supplement amounts and cautions shown before purchase."],
+  ["Balance", "Internal factors and life context considered without claiming to diagnose them."],
+  ["Root", "Cleansing and topical care matched to the reported scalp context."],
+  ["Stimulate", "A direct scalp or tool-based step only when appropriate and clearly explained."],
+  ["Ritual", "A concise daily, weekly and review routine that fits real life."],
 ];
 
 function recommendBox(answers: Answers) {
@@ -109,7 +109,7 @@ export function HairQuiz() {
         <div className="quiz-welcome-copy">
           <p className="kicker">The Inruut Hair Root Wellness profile</p>
           <h1>Seven useful questions. One box you can understand.</h1>
-          <p>Tell us what you notice, when it began, the context around it and what kind of ritual fits. We&apos;ll show one working box recommendation or pause the route when outside medical care belongs first.</p>
+          <p>Tell us what you notice, when it began, the context around it and what kind of ritual fits. We&apos;ll bring the five layers into one personalized starting point or pause when outside medical care belongs first.</p>
           <div className="quiz-promises"><span><Clock3 size={18} /> About 3 minutes</span><span><ShieldCheck size={18} /> No diagnosis</span><span><Check size={18} /> Results without email</span></div>
           <button className="primary-button" onClick={begin}>Start my hair analysis <ArrowRight size={18} /></button>
         </div>
@@ -136,7 +136,7 @@ export function HairQuiz() {
       <div className="result-capture">
         <Mail size={28} strokeWidth={1.4} />
         <p className="kicker">Your recommendation is ready</p>
-        <h1>See your personalized Hair Root Wellness Box.</h1>
+        <h1>See your personalized Inruut Wellness Box.</h1>
         <p>Enter an email to continue with a saved-result concept, or view the complete recommendation without sharing contact details.</p>
         <form onSubmit={submitEmail}>
           <label htmlFor="result-email">Email address</label>
@@ -166,7 +166,7 @@ export function HairQuiz() {
           </div>
           <div className="not-included"><b>Shown before any purchase:</b> exact products, ingredients or Supplement Facts, quantities, usage, cautions, USD price and recurring terms. None are finalized in this prototype.</div>
           <Link className="primary-button plan-button" href="/plan">View the full box framework <ArrowRight size={18} /></Link>
-          <p className="disclosure">Working recommendation only. The profile does not diagnose a condition or determine hormone, thyroid, adrenal, nutrient or DHT status.</p>
+          <p className="disclosure">Personalized starting point only. The profile does not diagnose a condition or determine hormone, thyroid, adrenal, nutrient or DHT status.</p>
         </section>
       </div>
     );
